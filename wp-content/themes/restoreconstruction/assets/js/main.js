@@ -32,6 +32,26 @@ function startCounter() {
     }
 }
 
+function fixedHeader() {
+    var $header = jQuery('header.wp-block-template-part');
+    var body = jQuery('main');
+
+   // add class .active to header when scroll top is greater than header height
+    if ($header.length > 0) {
+        // Add Root CSS variable for header height
+        var $window = jQuery(window);
+        var $scroll = $window.scrollTop();
+        var $headerHeight = $header.outerHeight();
+        if ($scroll > 0) {
+            $header.addClass('active');
+            body.css('padding-top', $headerHeight + 'px');
+        } else {
+            $header.removeClass('active');
+            body.css('padding-top', '0px');
+        }
+    }
+}
+
 jQuery(document).ready(function ($) {
     jQuery('.countup').each(function () {
         var $this = jQuery(this);
@@ -39,9 +59,11 @@ jQuery(document).ready(function ($) {
         $this.text('0');
     })
     startCounter();
+    fixedHeader();
 })
 
 // Window Scroll Event
 jQuery(window).scroll(function () {
     startCounter();
+    fixedHeader();
 });
