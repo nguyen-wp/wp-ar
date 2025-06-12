@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: CR - What We Do
- * Slug: n3-commercial-realty/what-we-do
+ * Slug: restoreconstruction/what-we-do
  * Categories: about
  * Description: This pattern displays a section with a wide column and a narrow column. The wide column contains a title and a subtitle. The narrow column contains a heading and a paragraph.
  *
@@ -11,7 +11,7 @@
  */
 
 ?>
-<!-- wp:group {"metadata":{"categories":["about"],"patternName":"n3-commercial-realty/what-we-do","name":"CR - What We Do"},"align":"full","className":"is-style-section-1 has-rotate","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"margin":{"top":"0","bottom":"0"},"blockGap":"0px"},"color":{"background":"#000000"}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"metadata":{"categories":["about"],"patternName":"restoreconstruction/what-we-do","name":"CR - What We Do"},"align":"full","className":"is-style-section-1 has-rotate","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"margin":{"top":"0","bottom":"0"},"blockGap":"0px"},"color":{"background":"#000000"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull is-style-section-1 has-rotate has-background" style="background-color:#000000;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:group {"align":"wide","className":"group relative","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignwide group relative"><!-- wp:paragraph {"className":"rotate90"} -->
 <p class="rotate90">WHAT WE DO</p>

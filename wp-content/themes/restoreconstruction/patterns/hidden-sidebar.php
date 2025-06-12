@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Sidebar
- * Slug: n3-commercial-realty/hidden-sidebar
+ * Slug: restoreconstruction/hidden-sidebar
  * Inserter: no
  *
  * @package WordPress

@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Intro with left-aligned description
- * Slug: n3-commercial-realty/banner-intro
+ * Slug: restoreconstruction/banner-intro
  * Categories: banner
  * Description: A large left-aligned heading with a brand name emphasized in bold.
  *
@@ -18,8 +18,8 @@
 		<?php
 			printf(
 				/* translators: %s is the brand name, e.g., 'Fleurs'. */
-				esc_html_x( 'We\'re %s, our mission is to deliver exquisite flower arrangements that not only adorn living spaces but also inspire a deeper appreciation for natural beauty.', 'Pattern placeholder text.', 'n3-commercial-realty' ),
-				'<strong>' . esc_html_x( 'Fleurs', 'Example brand name.', 'n3-commercial-realty' ) . '</strong>'
+				esc_html_x( 'We\'re %s, our mission is to deliver exquisite flower arrangements that not only adorn living spaces but also inspire a deeper appreciation for natural beauty.', 'Pattern placeholder text.', 'restoreconstruction' ),
+				'<strong>' . esc_html_x( 'Fleurs', 'Example brand name.', 'restoreconstruction' ) . '</strong>'
 			);
 			?>
 	</h2>

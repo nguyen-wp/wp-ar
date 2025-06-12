@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Footer
- * Slug: n3-commercial-realty/footer
+ * Slug: restoreconstruction/footer
  * Categories: footer
  * Block Types: core/template-part/footer
  * Description: Footer columns with logo, title, tagline and links.

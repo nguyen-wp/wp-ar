@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Photo blog home
- * Slug: n3-commercial-realty/template-home-photo-blog
+ * Slug: restoreconstruction/template-home-photo-blog
  * Template Types: front-page, index, home
  * Viewport width: 1400
  * Inserter: no
@@ -19,14 +19,14 @@
 	<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 	<div class="wp-block-group">
 		<!-- wp:heading {"textAlign":"center","level":1,"className":"is-style-text-annotation"} -->
-		<h1 class="wp-block-heading has-text-align-center is-style-text-annotation"><?php esc_html_e( 'Stories', 'n3-commercial-realty' ); ?></h1>
+		<h1 class="wp-block-heading has-text-align-center is-style-text-annotation"><?php esc_html_e( 'Stories', 'restoreconstruction' ); ?></h1>
 		<!-- /wp:heading -->
 	</div>
 	<!-- /wp:group -->
 	<!-- wp:heading {"textAlign":"center","align":"wide","fontSize":"xx-large"} -->
-	<h2 class="wp-block-heading alignwide has-text-align-center has-xx-large-font-size"><?php esc_html_e( 'Tell your story', 'n3-commercial-realty' ); ?></h2>
+	<h2 class="wp-block-heading alignwide has-text-align-center has-xx-large-font-size"><?php esc_html_e( 'Tell your story', 'restoreconstruction' ); ?></h2>
 	<!-- /wp:heading -->
-	<!-- wp:pattern {"slug":"n3-commercial-realty/template-query-loop-photo-blog"} /-->
+	<!-- wp:pattern {"slug":"restoreconstruction/template-query-loop-photo-blog"} /-->
 </main>
 <!-- /wp:group -->
 

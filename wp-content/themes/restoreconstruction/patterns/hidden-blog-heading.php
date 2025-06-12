@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Hidden blog heading
- * Slug: n3-commercial-realty/hidden-blog-heading
+ * Slug: restoreconstruction/hidden-blog-heading
  * Description: Hidden heading for the home page and index template.
  * Inserter: no
  *
@@ -12,5 +12,5 @@
 
 ?>
 <!-- wp:heading {"textAlign":"left","level":1} -->
-<h1 class="wp-block-heading has-text-align-left"><?php esc_html_e( 'Blog', 'n3-commercial-realty' ); ?></h1>
+<h1 class="wp-block-heading has-text-align-left"><?php esc_html_e( 'Blog', 'restoreconstruction' ); ?></h1>
 <!-- /wp:heading -->

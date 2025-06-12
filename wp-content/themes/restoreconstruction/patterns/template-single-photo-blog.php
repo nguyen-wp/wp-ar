@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Photo blog single post
- * Slug: n3-commercial-realty/template-single-photo-blog
+ * Slug: restoreconstruction/template-single-photo-blog
  * Template Types: posts, single
  * Viewport width: 1400
  * Inserter: no
@@ -33,13 +33,13 @@
 					<div class="wp-block-group">
 						<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"fontSize":"small","layout":{"type":"constrained"}} -->
 						<div class="wp-block-group has-small-font-size">
-							<!-- wp:paragraph --><p><?php echo esc_html_x( 'Published on', 'Prefix before the post date block.', 'n3-commercial-realty' ); ?></p><!-- /wp:paragraph -->
+							<!-- wp:paragraph --><p><?php echo esc_html_x( 'Published on', 'Prefix before the post date block.', 'restoreconstruction' ); ?></p><!-- /wp:paragraph -->
 							<!-- wp:post-date {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast"} /-->
 						</div>
 						<!-- /wp:group -->
 						<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"fontSize":"small","layout":{"type":"constrained"}} -->
 						<div class="wp-block-group has-small-font-size">
-							<!-- wp:paragraph --><p><?php echo esc_html_x( 'Posted by', 'Prefix before the author name. The post author name is displayed in a separate block on the next line.', 'n3-commercial-realty' ); ?></p><!-- /wp:paragraph -->
+							<!-- wp:paragraph --><p><?php echo esc_html_x( 'Posted by', 'Prefix before the author name. The post author name is displayed in a separate block on the next line.', 'restoreconstruction' ); ?></p><!-- /wp:paragraph -->
 							<!-- wp:post-author-name {"isLink":true} /-->
 						</div>
 						<!-- /wp:group -->
@@ -50,7 +50,7 @@
 						<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 						<div class="wp-block-group">
 							<!-- wp:paragraph {"fontSize":"small"} -->
-							<p class="has-small-font-size"><?php echo esc_html_x( 'Categories:', 'Prefix before one or more categories. The categories are displayed in a separate block on the next line.', 'n3-commercial-realty' ); ?></p>
+							<p class="has-small-font-size"><?php echo esc_html_x( 'Categories:', 'Prefix before one or more categories. The categories are displayed in a separate block on the next line.', 'restoreconstruction' ); ?></p>
 							<!-- /wp:paragraph -->
 							<!-- wp:post-terms {"term":"category","style":{"typography":{"fontStyle":"normal","fontWeight":"300"}}} /-->
 						</div>
@@ -58,7 +58,7 @@
 						<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 						<div class="wp-block-group">
 							<!-- wp:paragraph {"fontSize":"small"} -->
-							<p class="has-small-font-size"><?php echo esc_html_x( 'Tagged:', 'Prefix before one or more tags. The tags are displayed in a separate block on the next line.', 'n3-commercial-realty' ); ?></p>
+							<p class="has-small-font-size"><?php echo esc_html_x( 'Tagged:', 'Prefix before one or more tags. The tags are displayed in a separate block on the next line.', 'restoreconstruction' ); ?></p>
 							<!-- /wp:paragraph -->
 							<!-- wp:post-terms {"term":"post_tag","style":{"typography":{"fontStyle":"normal","fontWeight":"300"}}} /-->
 						</div>
@@ -73,10 +73,10 @@
 		<!-- /wp:columns -->
 		<!-- wp:group {"align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"0"}}},"layout":{"type":"default"}} -->
 		<div class="wp-block-group alignwide" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:0">
-			<!-- wp:group {"ariaLabel":"<?php esc_attr_e( 'Post navigation', 'n3-commercial-realty' ); ?>","tagName":"nav","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-			<nav aria-label="<?php esc_attr_e( 'Post navigation', 'n3-commercial-realty' ); ?>" class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)">
-				<!-- wp:post-navigation-link {"type":"previous","label":"<?php esc_html_e( 'Previous Photo', 'n3-commercial-realty' ); ?>","fontSize":"small"} /-->
-				<!-- wp:post-navigation-link {"label":"<?php esc_html_e( 'Next Photo', 'n3-commercial-realty' ); ?>","fontSize":"small"} /-->
+			<!-- wp:group {"ariaLabel":"<?php esc_attr_e( 'Post navigation', 'restoreconstruction' ); ?>","tagName":"nav","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+			<nav aria-label="<?php esc_attr_e( 'Post navigation', 'restoreconstruction' ); ?>" class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)">
+				<!-- wp:post-navigation-link {"type":"previous","label":"<?php esc_html_e( 'Previous Photo', 'restoreconstruction' ); ?>","fontSize":"small"} /-->
+				<!-- wp:post-navigation-link {"label":"<?php esc_html_e( 'Next Photo', 'restoreconstruction' ); ?>","fontSize":"small"} /-->
 			</nav>
 			<!-- /wp:group -->
 		</div>
@@ -89,7 +89,7 @@
 
 	<!-- wp:group {"align":"wide","layout":{"type":"constrained","justifyContent":"left"}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:pattern {"slug":"n3-commercial-realty/comments"} /-->
+		<!-- wp:pattern {"slug":"restoreconstruction/comments"} /-->
 	</div>
 	<!-- /wp:group -->
 </main>

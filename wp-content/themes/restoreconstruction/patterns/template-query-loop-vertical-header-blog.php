@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Right-aligned posts
- * Slug: n3-commercial-realty/template-query-loop-vertical-header-blog
+ * Slug: restoreconstruction/template-query-loop-vertical-header-blog
  * Inserter: no
  *
  * @package WordPress
@@ -44,7 +44,7 @@
 
 	<!-- wp:query-no-results -->
 		<!-- wp:paragraph -->
-		<p><?php echo esc_html_x( 'Sorry, but nothing was found. Please try a search with different keywords.', 'Message explaining that there are no results returned from a search.', 'n3-commercial-realty' ); ?></p>
+		<p><?php echo esc_html_x( 'Sorry, but nothing was found. Please try a search with different keywords.', 'Message explaining that there are no results returned from a search.', 'restoreconstruction' ); ?></p>
 		<!-- /wp:paragraph -->
 	<!-- /wp:query-no-results -->
 </div>

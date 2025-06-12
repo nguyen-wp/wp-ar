@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Photo blog posts
- * Slug: n3-commercial-realty/template-query-loop-photo-blog
+ * Slug: restoreconstruction/template-query-loop-photo-blog
  * Categories: query
  * Block Types: core/query
  * Viewport width: 1400
@@ -19,7 +19,7 @@
 		<div class="wp-block-group">
 		<!-- wp:query-no-results -->
 		<!-- wp:paragraph {"align":"center"} -->
-		<p class="has-text-align-center"><?php echo esc_html_x( 'Sorry, but nothing was found. Please try a search with different keywords.', 'Message explaining that there are no results returned from a search.', 'n3-commercial-realty' ); ?></p>
+		<p class="has-text-align-center"><?php echo esc_html_x( 'Sorry, but nothing was found. Please try a search with different keywords.', 'Message explaining that there are no results returned from a search.', 'restoreconstruction' ); ?></p>
 		<!-- /wp:paragraph -->
 		<!-- /wp:query-no-results -->
 	</div>

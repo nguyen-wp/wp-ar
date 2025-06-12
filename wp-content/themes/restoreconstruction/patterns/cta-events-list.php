@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Events list
- * Slug: n3-commercial-realty/cta-events-list
+ * Slug: restoreconstruction/cta-events-list
  * Categories: call-to-action
  * Description: A list of events with call to action.
  *
@@ -16,11 +16,11 @@
 	<!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 	<div class="wp-block-group alignwide">
 		<!-- wp:heading -->
-		<h2 class="wp-block-heading"><?php esc_html_e( 'Upcoming events', 'n3-commercial-realty' ); ?></h2>
+		<h2 class="wp-block-heading"><?php esc_html_e( 'Upcoming events', 'restoreconstruction' ); ?></h2>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph -->
-		<p><?php esc_html_e( 'These are some of the upcoming events', 'n3-commercial-realty' ); ?></p>
+		<p><?php esc_html_e( 'These are some of the upcoming events', 'restoreconstruction' ); ?></p>
 		<!-- /wp:paragraph -->
 
 		<!-- wp:group {"style":{"spacing":{"blockGap":"0","margin":{"top":"var:preset|spacing|70"}}},"layout":{"type":"default"}} -->
@@ -30,11 +30,11 @@
 				<!-- wp:group {"layout":{"type":"constrained"}} -->
 				<div class="wp-block-group">
 					<!-- wp:heading {"level":3} -->
-					<h3 class="wp-block-heading"><?php esc_html_e( 'Tell your story', 'n3-commercial-realty' ); ?></h3>
+					<h3 class="wp-block-heading"><?php esc_html_e( 'Tell your story', 'restoreconstruction' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
-					<p><?php esc_html_e( 'Atlanta, GA, USA', 'n3-commercial-realty' ); ?></p>
+					<p><?php esc_html_e( 'Atlanta, GA, USA', 'restoreconstruction' ); ?></p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->
@@ -42,13 +42,13 @@
 				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|70"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 				<div class="wp-block-group">
 					<!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"}}} -->
-					<p style="text-transform:uppercase"><?php echo esc_html_x( 'Mon, Jan 1', 'Example event date in pattern.', 'n3-commercial-realty' ); ?></p>
+					<p style="text-transform:uppercase"><?php echo esc_html_x( 'Mon, Jan 1', 'Example event date in pattern.', 'restoreconstruction' ); ?></p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:buttons -->
 					<div class="wp-block-buttons">
 						<!-- wp:button {"fontSize":"small"} -->
-						<div class="wp-block-button has-custom-font-size has-small-font-size"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Buy Tickets', 'n3-commercial-realty' ); ?></a></div>
+						<div class="wp-block-button has-custom-font-size has-small-font-size"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Buy Tickets', 'restoreconstruction' ); ?></a></div>
 						<!-- /wp:button -->
 					</div>
 					<!-- /wp:buttons -->
@@ -65,14 +65,14 @@
 						<?php
 						echo wp_kses_post(
 							/* translators: This string contains the word "Stories" in four different languages with the first item in the locale's language. */
-							_x( '“Stories, <span lang="es">historias</span>, <span lang="uk">iсторії</span>, <span lang="el">iστορίες</span>”', 'Placeholder heading in four languages.', 'n3-commercial-realty' )
+							_x( '“Stories, <span lang="es">historias</span>, <span lang="uk">iсторії</span>, <span lang="el">iστορίες</span>”', 'Placeholder heading in four languages.', 'restoreconstruction' )
 						);
 						?>
 					</h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
-					<p><?php esc_html_e( 'Mexico City, Mexico', 'n3-commercial-realty' ); ?></p>
+					<p><?php esc_html_e( 'Mexico City, Mexico', 'restoreconstruction' ); ?></p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->
@@ -80,13 +80,13 @@
 				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|70"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 				<div class="wp-block-group">
 					<!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"}}} -->
-					<p style="text-transform:uppercase"><?php echo esc_html_x( 'Mon, Jan 1', 'Example event date in pattern.', 'n3-commercial-realty' ); ?></p>
+					<p style="text-transform:uppercase"><?php echo esc_html_x( 'Mon, Jan 1', 'Example event date in pattern.', 'restoreconstruction' ); ?></p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:buttons -->
 					<div class="wp-block-buttons">
 						<!-- wp:button {"fontSize":"small"} -->
-						<div class="wp-block-button has-custom-font-size has-small-font-size"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Buy Tickets', 'n3-commercial-realty' ); ?></a></div>
+						<div class="wp-block-button has-custom-font-size has-small-font-size"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Buy Tickets', 'restoreconstruction' ); ?></a></div>
 						<!-- /wp:button -->
 					</div>
 					<!-- /wp:buttons -->
@@ -99,11 +99,11 @@
 			<div class="wp-block-group" style="border-top-color:var(--wp--preset--color--accent-6);border-top-width:1px;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:group {"layout":{"type":"constrained"}} -->
 				<div class="wp-block-group">
 					<!-- wp:heading {"level":3} -->
-					<h3 class="wp-block-heading"><?php esc_html_e( 'Tell your story', 'n3-commercial-realty' ); ?></h3>
+					<h3 class="wp-block-heading"><?php esc_html_e( 'Tell your story', 'restoreconstruction' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
-					<p><?php esc_html_e( 'Thornville, OH, USA', 'n3-commercial-realty' ); ?></p>
+					<p><?php esc_html_e( 'Thornville, OH, USA', 'restoreconstruction' ); ?></p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->
@@ -111,13 +111,13 @@
 				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|70"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 				<div class="wp-block-group">
 					<!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"}}} -->
-					<p style="text-transform:uppercase"><?php echo esc_html_x( 'Mon, Jan 1', 'Example event date in pattern.', 'n3-commercial-realty' ); ?></p>
+					<p style="text-transform:uppercase"><?php echo esc_html_x( 'Mon, Jan 1', 'Example event date in pattern.', 'restoreconstruction' ); ?></p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:buttons -->
 					<div class="wp-block-buttons">
 						<!-- wp:button {"fontSize":"small"} -->
-						<div class="wp-block-button has-custom-font-size has-small-font-size"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Buy Tickets', 'n3-commercial-realty' ); ?></a></div>
+						<div class="wp-block-button has-custom-font-size has-small-font-size"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Buy Tickets', 'restoreconstruction' ); ?></a></div>
 						<!-- /wp:button -->
 					</div>
 					<!-- /wp:buttons -->
@@ -134,14 +134,14 @@
 						<?php
 						echo wp_kses_post(
 							/* translators: This string contains the word "Stories" in four different languages with the first item in the locale's language. */
-							_x( '“Stories, <span lang="es">historias</span>, <span lang="uk">iсторії</span>, <span lang="el">iστορίες</span>”', 'Placeholder heading in four languages.', 'n3-commercial-realty' )
+							_x( '“Stories, <span lang="es">historias</span>, <span lang="uk">iсторії</span>, <span lang="el">iστορίες</span>”', 'Placeholder heading in four languages.', 'restoreconstruction' )
 						);
 						?>
 					</h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
-					<p><?php esc_html_e( 'Thornville, OH, USA', 'n3-commercial-realty' ); ?></p>
+					<p><?php esc_html_e( 'Thornville, OH, USA', 'restoreconstruction' ); ?></p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->
@@ -149,13 +149,13 @@
 				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|70"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 				<div class="wp-block-group">
 					<!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"}}} -->
-					<p style="text-transform:uppercase"><?php echo esc_html_x( 'Mon, Jan 1', 'Example event date in pattern.', 'n3-commercial-realty' ); ?></p>
+					<p style="text-transform:uppercase"><?php echo esc_html_x( 'Mon, Jan 1', 'Example event date in pattern.', 'restoreconstruction' ); ?></p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:buttons -->
 					<div class="wp-block-buttons">
 						<!-- wp:button {"fontSize":"small"} -->
-						<div class="wp-block-button has-custom-font-size has-small-font-size"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Buy Tickets', 'n3-commercial-realty' ); ?></a></div>
+						<div class="wp-block-button has-custom-font-size has-small-font-size"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Buy Tickets', 'restoreconstruction' ); ?></a></div>
 						<!-- /wp:button -->
 					</div>
 					<!-- /wp:buttons -->

@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: CR - Slider
- * Slug: n3-commercial-realty/slider
+ * Slug: restoreconstruction/slider
  * Categories: about
  * Description: This pattern displays a section with a wide column and a narrow column. The wide column contains a title and a subtitle. The narrow column contains a heading and a paragraph.
  *
@@ -11,7 +11,7 @@
  */
 
 ?>
-<!-- wp:cover {"className":"gb-slider","customOverlayColor":"#ffffff","isUserOverlayColor":true,"minHeightUnit":"vh","contentPosition":"center center","isDark":false,"metadata":{"categories":["about"],"patternName":"n3-commercial-realty/slider","name":"CR - Slider"},"align":"full","layout":{"type":"constrained","contentSize":"1340px"}} -->
+<!-- wp:cover {"className":"gb-slider","customOverlayColor":"#ffffff","isUserOverlayColor":true,"minHeightUnit":"vh","contentPosition":"center center","isDark":false,"metadata":{"categories":["about"],"patternName":"restoreconstruction/slider","name":"CR - Slider"},"align":"full","layout":{"type":"constrained","contentSize":"1340px"}} -->
 <div class="wp-block-cover alignfull is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim" style="background-color:#ffffff"></span><div class="wp-block-cover__inner-container"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"66.66%"} -->
 <div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:lcb/logo-carousel {"sliderId":"alcb__ba91e567","images":[{"sizes":{"thumbnail":{"height":150,"width":150,"url":"https://picsum.photos/2000/800","orientation":"landscape"},"medium":{"height":200,"width":300,"url":"https://picsum.photos/2000/800","orientation":"landscape"},"large":{"height":683,"width":1024,"url":"https://picsum.photos/2000/800","orientation":"landscape"},"full":{"url":"https://picsum.photos/2000/800","height":800,"width":1200,"orientation":"landscape"}},"mime":"image/jpeg","type":"image","subtype":"jpeg","id":25,"url":"https://picsum.photos/2000/800","alt":"","link":"https://picsum.photos/2000/800","caption":""},{"sizes":{"thumbnail":{"height":150,"width":150,"url":"https://picsum.photos/2000/800","orientation":"landscape"},"medium":{"height":221,"width":300,"url":"https://picsum.photos/2000/800","orientation":"landscape"},"large":{"height":755,"width":1024,"url":"https://realty.com/wp-content/uploads/2025/01/34-3409x2513-1-1024x755.jpg","orientation":"landscape"},"full":{"url":"https://picsum.photos/2000/800","height":1887,"width":2560,"orientation":"landscape"}},"mime":"image/jpeg","type":"image","subtype":"jpeg","id":26,"url":"https://picsum.photos/2000/800","alt":"","link":"https://picsum.photos/2000/800","caption":"Picsum ID: 34"}],"showNav":false,"deskItemsPerView":1,"deskSpace":0,"className":"p-0"} -->

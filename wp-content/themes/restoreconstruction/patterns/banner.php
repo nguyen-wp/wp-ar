@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: CR - Banner
- * Slug: n3-commercial-realty/banner
+ * Slug: restoreconstruction/banner
  * Categories: about, call-to-action
  * Description: Banner for the about page
  *

@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Photo blog page
- * Slug: n3-commercial-realty/template-page-photo-blog
+ * Slug: restoreconstruction/template-page-photo-blog
  * Template Types: page
  * Viewport width: 1400
  *

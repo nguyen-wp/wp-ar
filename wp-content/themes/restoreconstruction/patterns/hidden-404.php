@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: 404
- * Slug: n3-commercial-realty/hidden-404
+ * Slug: restoreconstruction/hidden-404
  * Inserter: no
  *
  * @package WordPress

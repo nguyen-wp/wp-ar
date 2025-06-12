@@ -50,7 +50,7 @@ if ( ! function_exists( 'restoreconstruction_enqueue_styles' ) ) :
 	 */
 	function restoreconstruction_enqueue_styles() {
 		wp_enqueue_style(
-			'n3-commercial-realty-style',
+			'restoreconstruction-style',
 			get_parent_theme_file_uri( 'style.css' ),
 			array(),
 			wp_get_theme()->get( 'Version' )
@@ -73,7 +73,7 @@ if ( ! function_exists( 'restoreconstruction_block_styles' ) ) :
 			'core/list',
 			array(
 				'name'         => 'checkmark-list',
-				'label'        => __( 'Checkmark', 'n3-commercial-realty' ),
+				'label'        => __( 'Checkmark', 'restoreconstruction' ),
 				'inline_style' => '
 				ul.is-style-checkmark-list {
 					list-style-type: "\2713";
@@ -102,16 +102,16 @@ if ( ! function_exists( 'restoreconstruction_pattern_categories' ) ) :
 		register_block_pattern_category(
 			'restoreconstruction_page',
 			array(
-				'label'       => __( 'Pages', 'n3-commercial-realty' ),
-				'description' => __( 'A collection of full page layouts.', 'n3-commercial-realty' ),
+				'label'       => __( 'Pages', 'restoreconstruction' ),
+				'description' => __( 'A collection of full page layouts.', 'restoreconstruction' ),
 			)
 		);
 
 		register_block_pattern_category(
 			'restoreconstruction_post-format',
 			array(
-				'label'       => __( 'Post formats', 'n3-commercial-realty' ),
-				'description' => __( 'A collection of post format patterns.', 'n3-commercial-realty' ),
+				'label'       => __( 'Post formats', 'restoreconstruction' ),
+				'description' => __( 'A collection of post format patterns.', 'restoreconstruction' ),
 			)
 		);
 	}
@@ -129,9 +129,9 @@ if ( ! function_exists( 'restoreconstruction_register_block_bindings' ) ) :
 	 */
 	function restoreconstruction_register_block_bindings() {
 		register_block_bindings_source(
-			'n3-commercial-realty/format',
+			'restoreconstruction/format',
 			array(
-				'label'              => _x( 'Post format name', 'Label for the block binding placeholder in the editor', 'n3-commercial-realty' ),
+				'label'              => _x( 'Post format name', 'Label for the block binding placeholder in the editor', 'restoreconstruction' ),
 				'get_value_callback' => 'restoreconstruction_format_binding',
 			)
 		);

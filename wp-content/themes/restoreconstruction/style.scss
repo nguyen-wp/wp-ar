@@ -1,0 +1,289 @@
+/*
+Theme Name: Restore Construction
+Theme URI: https://restoreconstruction.com/
+Author: Nguyen Pham
+Author URI: https://restoreconstruction.org
+Description: Restore Construction is a modern, accessible, and fully responsive WordPress theme designed for construction and renovation businesses. It features a clean design, customizable options, and is built with the latest web standards to ensure optimal performance and user experience.
+Requires at least: 6.4
+Tested up to: 6.7
+Requires PHP: 7.0
+Version: 1.3
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: restoreconstruction
+Tags: accessibility-ready, custom-colors, custom-menu, editor-style, featured-images, full-site-editing, rtl-language-support, theme-options, translation-ready, wide-blocks, responsive-layout, block-styles, custom-logo, custom-header, custom-background
+*/
+
+/*
+ * Link styles
+ * https://github.com/WordPress/gutenberg/issues/42319
+ */
+
+html, body {
+	height: 100%;
+	.wp-site-blocks,
+	.wp-site-blocks-null {
+		height: 100%;
+	}
+	.wp-site-blocks,
+	.wp-site-blocks-null {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		main {
+			flex: 1;
+		}
+	}
+}
+
+a {
+	text-decoration-thickness: 1px !important;
+	text-underline-offset: .1em;
+}
+
+/* Focus styles */
+:where(.wp-site-blocks *:focus) {
+	outline-width: 2px;
+	outline-style: solid;
+}
+
+/* Increase the bottom margin on submenus, so that the outline is visible. */
+.wp-block-navigation .wp-block-navigation-submenu .wp-block-navigation-item:not(:last-child) {
+	margin-bottom: 3px;
+}
+
+/* Increase the outline offset on the parent menu items, so that the outline does not touch the text. */
+.wp-block-navigation .wp-block-navigation-item .wp-block-navigation-item__content {
+	outline-offset: 4px;
+}
+
+/* Remove outline offset from the submenus, otherwise the outline is visible outside the submenu container. */
+.wp-block-navigation .wp-block-navigation-item ul.wp-block-navigation__submenu-container .wp-block-navigation-item__content {
+	outline-offset: 0;
+}
+
+/*
+ * Progressive enhancement to reduce widows and orphans
+ * https://github.com/WordPress/gutenberg/issues/55190
+ */
+h1, h2, h3, h4, h5, h6, blockquote, caption, figcaption, p {
+	text-wrap: pretty;
+}
+
+/*
+ * Change the position of the more block on the front, by making it a block level element.
+ * https://github.com/WordPress/gutenberg/issues/65934
+*/
+.more-link {
+	display: block;
+}
+
+// Nguyen Pham 
+.grid-bg {
+	position: relative;
+	z-index: 1;
+}
+@media (max-width: 1024px) {
+	.grid-bg .alignwide.wp-block-group-is-layout-grid > .wp-block-group-is-layout-flex:nth-child(1) {
+		grid-column: span 10;
+	}
+	.grid-bg .alignwide.wp-block-group-is-layout-grid > .wp-block-group-is-layout-flex:nth-child(2), 
+	.grid-bg .alignwide.wp-block-group-is-layout-grid > .wp-block-group-is-layout-flex:nth-child(3) {
+		grid-column: span 5;
+	}
+}
+.grid-bg:before {
+	content: "";
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 60%;
+	background: #4b1304;
+	z-index: -1;
+}
+@media (min-width: 1024px) {
+	.grid-bg:before {
+		width: 50%;
+		height: 100%;
+	}
+}
+
+.grid-bg-right {
+	position: relative;
+	z-index: 1;
+}
+.grid-bg-right:before {
+	content: "";
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background: #4b1304;
+	z-index: -1;
+}
+@media (min-width: 1024px) {
+	.grid-bg-right:before {
+		left: 35%;
+		width: 65%;
+		height: 100%;
+	}
+}
+@media (max-width: 1024px) {
+	.grid-bg-right .wp-block-group-is-layout-grid .wp-block-group-is-layout-flex {
+		grid-column: span 10;
+	}
+}
+
+.grid-bg-right-inside {
+	position: relative;
+	z-index: 1;
+}
+
+.grid-bg-right-inside:before {
+	content: "";
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #cb1513;
+	z-index: -1;
+}
+
+.gb-slider {
+	position: relative;
+	z-index: 1;
+	.wp-block-lcb-logo-carousel {
+		padding: 0 0 40px 0 !important;
+	}
+}
+
+.wp-block-lcb-logo-carousel.alcb__active_pagination {
+	padding: 0 !important;
+}
+
+.has-rotate {
+	position: relative;
+	.rotate90 {
+		position: relative;
+		z-index: 1;
+		display: flex;
+		align-items: center;
+		white-space: nowrap;
+		&:after {
+			content: "";
+			display: inline-block;
+			height: 2px;
+			min-width: 60px;
+			background: #4b1304;
+			z-index: -1;
+			margin-left: 12px;
+		}
+	}
+	@media (min-width: 768px) {
+		.rotate90 {
+			position: absolute;
+			top: 0;
+			left: 0;
+			transform-origin: left top 0;
+			transform: rotate(90deg) translate(0, -100%);
+		}
+	}
+	.wp-block-columns {
+		@media (min-width: 768px) {
+			padding-left: 100px;
+		}
+		@media (min-width: 1024px) {
+			padding-left: 200px;
+		}
+	}
+}
+.gp-maps-filter {
+	ul {
+		display: flex;
+		align-items: center;
+		li  {
+			font-size: 14px;
+			a {
+				color: #666;
+				font-weight: 700;
+				&.active {
+					color: #cb1513;
+				}
+				&:hover {
+					color: #cb1513;
+				}
+				&:focus {
+					color: #cb1513;
+					outline: none;
+				}
+			}
+		}
+		li + li {
+			margin-left: 20px;
+		}
+	}
+}
+.gp-maps-menu {
+	.item {
+		padding: 0;
+		position: relative;
+		&:after {
+			content: "";
+			display: block;
+			width: 100%;
+			height: 1px;
+			background: #e5e5e5;
+			margin: 0;
+		}
+		.mapgroup {
+			.maptitle {
+				padding: 10px 0;
+			}
+			.maphead {
+				font-size: 16px;
+				color: #4b1304;
+				font-weight: 700;
+			}
+			.maplocation {
+				font-size: 14px;
+				color: #666;
+			}
+		}
+		.mapdescription {
+			font-size: 14px;
+			color: #666;
+		}
+		&:hover {
+			.mapgroup {
+				.maphead {
+					color: #cb1513;
+				}
+			}
+		}
+	}
+}
+
+.whitesocial {
+	.wp-social-link {
+		background: transparent;
+		a {
+			padding: 0;
+		}
+	}
+}
+
+.swiper-pagination-bullet-active {
+	background: #cb1513 !important;
+}
+.gp-maps-filter {
+	[multiple], [type=date], [type=datetime-local], [type=email], [type=month], [type=number], [type=password], [type=search], [type=tel], [type=text], [type=time], [type=url], [type=week], select, textarea {
+		font-size: 16px;
+		padding: 5px 10px;
+	}
+}

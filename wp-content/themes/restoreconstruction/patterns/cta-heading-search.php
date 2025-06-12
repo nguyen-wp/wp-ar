@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Heading and search form
- * Slug: n3-commercial-realty/cta-heading-search
+ * Slug: restoreconstruction/cta-heading-search
  * Categories: call-to-action
  * Description: Large heading with a search form for quick navigation.
  *
@@ -15,10 +15,10 @@
 <div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 	<div class="wp-block-group alignwide">
 		<!-- wp:heading {"fontSize":"xx-large"} -->
-		<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'What are you looking for?', 'n3-commercial-realty' ); ?></h2>
+		<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'What are you looking for?', 'restoreconstruction' ); ?></h2>
 		<!-- /wp:heading -->
 
-		<!-- wp:search {"label":"<?php echo esc_html_x( 'Search', 'Search form label.', 'n3-commercial-realty' ); ?>","showLabel":false,"placeholder":"<?php echo esc_attr_x( 'Type here...', 'Search input field placeholder text.', 'n3-commercial-realty' ); ?>","buttonText":"<?php echo esc_attr_x( 'Search', 'Button text. Verb.', 'n3-commercial-realty' ); ?>"} /-->
+		<!-- wp:search {"label":"<?php echo esc_html_x( 'Search', 'Search form label.', 'restoreconstruction' ); ?>","showLabel":false,"placeholder":"<?php echo esc_attr_x( 'Type here...', 'Search input field placeholder text.', 'restoreconstruction' ); ?>","buttonText":"<?php echo esc_attr_x( 'Search', 'Button text. Verb.', 'restoreconstruction' ); ?>"} /-->
 	</div>
 	<!-- /wp:group -->
 </div>

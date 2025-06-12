@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Search
- * Slug: n3-commercial-realty/hidden-search
+ * Slug: restoreconstruction/hidden-search
  * Inserter: no
  *
  * @package WordPress
@@ -11,4 +11,4 @@
 
 ?>
 
-<!-- wp:search {"label":"<?php echo esc_html_x( 'Search', 'Search form label.', 'n3-commercial-realty' ); ?>","showLabel":false,"placeholder":"<?php echo esc_attr_x( 'Type here...', 'Search input field placeholder text.', 'n3-commercial-realty' ); ?>","buttonText":"<?php echo esc_attr_x( 'Search', 'Button text. Verb.', 'n3-commercial-realty' ); ?>"} /-->
+<!-- wp:search {"label":"<?php echo esc_html_x( 'Search', 'Search form label.', 'restoreconstruction' ); ?>","showLabel":false,"placeholder":"<?php echo esc_attr_x( 'Type here...', 'Search input field placeholder text.', 'restoreconstruction' ); ?>","buttonText":"<?php echo esc_attr_x( 'Search', 'Button text. Verb.', 'restoreconstruction' ); ?>"} /-->

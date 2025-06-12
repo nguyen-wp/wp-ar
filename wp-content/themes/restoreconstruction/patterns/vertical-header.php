@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Vertical header
- * Slug: n3-commercial-realty/vertical-header
+ * Slug: restoreconstruction/vertical-header
  * Categories: header
  * Block Types: core/template-part/vertical-header
  * Description: Vertical Header with site title and navigation

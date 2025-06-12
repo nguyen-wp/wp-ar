@@ -30,7 +30,7 @@ function custom_login_logo() {
         body.login #backtoblog { display: none; }
         body.login .wp-login-lost-password { display: block; margin-bottom: 1rem; }
         h1 a { 
-            background-image:url('.get_bloginfo('template_directory').'/assets/images/logon3cr.png) !important;
+            background-image:url('.get_bloginfo('template_directory').'/assets/images/logo.jpg) !important;
             background-size: contain !important;
             width: 250px !important;
         }
@@ -41,7 +41,7 @@ add_action('login_head', 'custom_login_logo');
 // Change WP Favicon
 function custom_favicon() {
     if ( ! has_site_icon() ) {
-        echo '<link rel="shortcut icon" href="'.get_bloginfo('template_directory').'/assets/images/logon3cr.png" />';
+        echo '<link rel="shortcut icon" href="'.get_bloginfo('template_directory').'/assets/images/logo.jpg" />';
     } else {
         echo '<style type="text/css">
             .edit-post-fullscreen-mode-close.components-button .edit-post-fullscreen-mode-close_site-icon {

@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Text-only blog, posts
- * Slug: n3-commercial-realty/template-query-loop-text-blog
+ * Slug: restoreconstruction/template-query-loop-text-blog
  * Inserter: no
  *
  * @package WordPress
@@ -16,7 +16,7 @@
 	<div class="wp-block-group">
 		<!-- wp:query-no-results {"align":"wide","fontSize":"medium"} -->
 			<!-- wp:paragraph -->
-			<p><?php echo esc_html_x( 'Sorry, but nothing was found. Please try a search with different keywords.', 'Message explaining that there are no results returned from a search.', 'n3-commercial-realty' ); ?></p>
+			<p><?php echo esc_html_x( 'Sorry, but nothing was found. Please try a search with different keywords.', 'Message explaining that there are no results returned from a search.', 'restoreconstruction' ); ?></p>
 			<!-- /wp:paragraph -->
 		<!-- /wp:query-no-results -->
 	</div>

@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Page template for the right-aligned blog
- * Slug: n3-commercial-realty/template-page-vertical-header-blog
+ * Slug: restoreconstruction/template-page-vertical-header-blog
  * Template Types: page
  * Viewport width: 1400
  *

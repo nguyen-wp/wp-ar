@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Header
- * Slug: n3-commercial-realty/header
+ * Slug: restoreconstruction/header
  * Categories: header
  * Block Types: core/template-part/header
  * Description: Header with site title and navigation.
@@ -20,9 +20,9 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"},"elements":{"link":{":hover":{"color":{"text":"#cb1513"}}}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
 <div class="wp-block-group">
 	<!-- wp:navigation {"textColor":"white","layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right"} -->
-		<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Instagram', 'n3-commercial-realty' ); ?>","url":"#"} /-->
-		<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Facebook', 'n3-commercial-realty' ); ?>","url":"#"} /-->
-		<!-- wp:navigation-link {"label":"<?php esc_html_e( 'TikTok', 'n3-commercial-realty' ); ?>","url":"#"} /-->
+		<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Instagram', 'restoreconstruction' ); ?>","url":"#"} /-->
+		<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Facebook', 'restoreconstruction' ); ?>","url":"#"} /-->
+		<!-- wp:navigation-link {"label":"<?php esc_html_e( 'TikTok', 'restoreconstruction' ); ?>","url":"#"} /-->
 		<!-- wp:buttons -->
 		<div class="wp-block-buttons"><!-- wp:button -->
 		<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#">Login</a></div>

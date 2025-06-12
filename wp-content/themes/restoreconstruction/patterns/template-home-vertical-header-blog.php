@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Homepage for right-aligned blog
- * Slug: n3-commercial-realty/template-home-vertical-header-blog
+ * Slug: restoreconstruction/template-home-vertical-header-blog
  * Template Types: front-page, index, home
  * Viewport width: 1400
  * Inserter: no
@@ -27,12 +27,12 @@
 			<!-- wp:spacer {"height":"var:preset|spacing|50"} -->
 			<div style="height:var(--wp--preset--spacing--50)" aria-hidden="true" class="wp-block-spacer"></div>
 			<!-- /wp:spacer -->
-			<!-- wp:pattern {"slug":"n3-commercial-realty/hidden-blog-heading"} /-->
+			<!-- wp:pattern {"slug":"restoreconstruction/hidden-blog-heading"} /-->
 			<!-- wp:spacer {"height":"var:preset|spacing|50"} -->
 			<div style="height:var(--wp--preset--spacing--50)" aria-hidden="true" class="wp-block-spacer"></div>
 			<!-- /wp:spacer -->
 
-			<!-- wp:pattern {"slug":"n3-commercial-realty/template-query-loop-vertical-header-blog"} /-->
+			<!-- wp:pattern {"slug":"restoreconstruction/template-query-loop-vertical-header-blog"} /-->
 
 			<!-- wp:spacer {"height":"var:preset|spacing|50"} -->
 			<div style="height:var(--wp--preset--spacing--50)" aria-hidden="true" class="wp-block-spacer"></div>

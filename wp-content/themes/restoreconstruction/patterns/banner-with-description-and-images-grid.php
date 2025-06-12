@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Banner with description and images grid
- * Slug: n3-commercial-realty/banner-description-images-grid
+ * Slug: restoreconstruction/banner-description-images-grid
  * Categories: banner, featured
  * Description: A banner with a short paragraph, and two images displayed in a grid layout.
  *
@@ -20,7 +20,7 @@
 			<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"left"}} -->
 			<div class="wp-block-group">
 				<!-- wp:heading {"className":"is-style-text-annotation"} -->
-				<h2 class="wp-block-heading is-style-text-annotation"><?php esc_html_e( 'About Us', 'n3-commercial-realty' ); ?></h2>
+				<h2 class="wp-block-heading is-style-text-annotation"><?php esc_html_e( 'About Us', 'restoreconstruction' ); ?></h2>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"className":"is-style-text-subtitle"} -->
@@ -28,8 +28,8 @@
 				<?php
 				printf(
 					/* translators: %s is the brand name, e.g., 'Fleurs'. */
-					esc_html__( '%s is a flower delivery and subscription business. Based in the EU, our mission is not only to deliver stunning flower arrangements across but also foster knowledge and enthusiasm on the beautiful gift of nature: flowers.', 'n3-commercial-realty' ),
-					'<strong>' . esc_html_x( 'Fleurs', 'Example brand name.', 'n3-commercial-realty' ) . '</strong>'
+					esc_html__( '%s is a flower delivery and subscription business. Based in the EU, our mission is not only to deliver stunning flower arrangements across but also foster knowledge and enthusiasm on the beautiful gift of nature: flowers.', 'restoreconstruction' ),
+					'<strong>' . esc_html_x( 'Fleurs', 'Example brand name.', 'restoreconstruction' ) . '</strong>'
 				);
 				?>
 				</p>
@@ -39,13 +39,13 @@
 			<!-- /wp:group -->
 
 			<!-- wp:image {"aspectRatio":"16/9","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/grid-flower-1.webp" alt="<?php esc_attr_e( 'Photography close up of a red flower.', 'n3-commercial-realty' ); ?>" style="aspect-ratio:16/9;object-fit:cover"/></figure>
+			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/grid-flower-1.webp" alt="<?php esc_attr_e( 'Photography close up of a red flower.', 'restoreconstruction' ); ?>" style="aspect-ratio:16/9;object-fit:cover"/></figure>
 			<!-- /wp:image -->
 		</div>
 		<!-- /wp:group -->
 
 		<!-- wp:image {"aspectRatio":"3/4","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-		<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/grid-flower-2.webp" alt="<?php esc_attr_e( 'Black and white photography close up of a flower.', 'n3-commercial-realty' ); ?>" style="aspect-ratio:3/4;object-fit:cover"/></figure>
+		<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/grid-flower-2.webp" alt="<?php esc_attr_e( 'Black and white photography close up of a flower.', 'restoreconstruction' ); ?>" style="aspect-ratio:3/4;object-fit:cover"/></figure>
 		<!-- /wp:image -->
 	</div>
 	<!-- /wp:group -->

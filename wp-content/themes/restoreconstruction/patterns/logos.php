@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Logos
- * Slug: n3-commercial-realty/logos
+ * Slug: restoreconstruction/logos
  * Categories: banner
  * Description: Showcasing the podcast's clients with a heading and a series of client logos.
  *
@@ -14,7 +14,7 @@
 <!-- wp:group {"align":"full","className":"is-style-section-1","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull is-style-section-1" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
 	<!-- wp:heading {"textAlign":"center"} -->
-	<h2 class="wp-block-heading has-text-align-center"><?php esc_html_e( 'The Stories Podcast is sponsored by', 'n3-commercial-realty' ); ?></h2>
+	<h2 class="wp-block-heading has-text-align-center"><?php esc_html_e( 'The Stories Podcast is sponsored by', 'restoreconstruction' ); ?></h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:spacer {"height":"var:preset|spacing|30"} -->
