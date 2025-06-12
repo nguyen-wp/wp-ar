@@ -33,7 +33,8 @@ function startCounter() {
 }
 
 function fixedHeader() {
-    var $header = jQuery('header.wp-block-template-part');
+    var $header = jQuery('#header');
+    var $topbar = jQuery('#topbar');
     var body = jQuery('main');
 
    // add class .active to header when scroll top is greater than header height
@@ -42,7 +43,7 @@ function fixedHeader() {
         var $window = jQuery(window);
         var $scroll = $window.scrollTop();
         var $headerHeight = $header.outerHeight();
-        if ($scroll > 0) {
+        if ($scroll > $topbar.outerHeight()) {
             $header.addClass('active');
             body.css('padding-top', $headerHeight + 'px');
         } else {

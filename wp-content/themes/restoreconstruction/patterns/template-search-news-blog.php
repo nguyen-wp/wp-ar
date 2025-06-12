@@ -12,6 +12,7 @@
  */
 
 ?>
+
 <!-- wp:template-part {"slug":"header"} /-->
 
 <!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
