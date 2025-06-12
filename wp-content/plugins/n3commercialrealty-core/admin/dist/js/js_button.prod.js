@@ -1,0 +1,1 @@
+"use strict";function made_core_backup_db(){window.location.href="admin.php?page=madelab-core-backup"}function made_core_restore_db(){window.location.href="admin.php?page=madelab-core-restore"}function made_core_rebuild_db(){window.location.href="admin.php?page=madelab-core-rebuild"}function made_core_compress(){window.location.href="admin.php?page=madelab-core-compress"}

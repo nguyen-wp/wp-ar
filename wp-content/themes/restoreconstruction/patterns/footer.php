@@ -1,129 +1,96 @@
 <?php
 /**
- * Title: Footer with colophon, 4 columns
- * Slug: restoreconstruction/footer
+ * Title: Footer
+ * Slug: n3-commercial-realty/footer
  * Categories: footer
  * Block Types: core/template-part/footer
- * Description: A footer section with a colophon and 4 columns.
+ * Description: Footer columns with logo, title, tagline and links.
+ *
+ * @package WordPress
+ * @subpackage N3_Commercial_Realty
+ * @since N3 Commercial Realty 1.0
  */
+
 ?>
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|50"}},"color":{"background":"#0f142a"},"elements":{"link":{"color":{"text":"#fff"},":hover": {"typography": { "textDecoration": "underline" }, "color": { "text": "#8fa63c !important" } }}}},"textColor":"base","layout":{"type":"constrained","contentSize":"1140px"}} -->
+<div class="wp-block-group has-base-color has-text-color has-background has-link-color" style="background-color:#0f142a;padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:group {"align":"wide","layout":{"type":"constrained","justifyContent":"left","contentSize":"1140px"}} -->
+<div class="wp-block-group alignwide"><!-- wp:site-logo {"shouldSyncIcon":true,"className":"invert contrast-200 brightness-0"} /-->
 
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)">
-	<!-- wp:columns {"align":"wide"} -->
-	<div class="wp-block-columns alignwide">
-		<!-- wp:column {"width":"30%"} -->
-		<div class="wp-block-column" style="flex-basis:30%">
-			<!-- wp:group {"style":{"dimensions":{"minHeight":""},"layout":{"selfStretch":"fit","flexSize":null}},"layout":{"type":"flex","orientation":"vertical"}} -->
-			<div class="wp-block-group">
-				<!-- wp:site-logo {"width":20,"shouldSyncIcon":true,"style":{"layout":{"selfStretch":"fit","flexSize":null}}} /-->
+<!-- wp:spacer {"height":"var:preset|spacing|30"} -->
+<div style="height:var(--wp--preset--spacing--30)" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
 
-				<!-- wp:site-title {"level":0,"fontSize":"medium"} /-->
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading"><strong>Dallas, TX<br></strong>(Corporate HQ)</h4>
+<!-- /wp:heading -->
 
-				<!-- wp:site-tagline {"fontSize":"small"} /-->
-			</div>
-			<!-- /wp:group -->
-		</div>
-		<!-- /wp:column -->
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size">2801 N Harwood St.<br>#1800<br>Dallas, TX 75201</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
 
-		<!-- wp:column {"width":"20%"} -->
-		<div class="wp-block-column" style="flex-basis:20%">
-		</div>
-		<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading"><strong>Dallas, TX<br></strong>(Corporate HQ)</h4>
+<!-- /wp:heading -->
 
-		<!-- wp:column {"width":"50%"} -->
-		<div class="wp-block-column" style="flex-basis:50%">
-			<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
-			<div class="wp-block-group">
-				<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-				<div class="wp-block-group">
-					<!-- wp:heading {"level":2,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontFamily":"body"} -->
-					<h2 class="wp-block-heading has-medium-font-size has-body-font-family" style="font-style:normal;font-weight:600"><?php esc_html_e( 'About', 'restoreconstruction' ); ?></h2>
-					<!-- /wp:heading -->
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size">2801 N Harwood St.<br>#1800<br>Dallas, TX 75201</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
 
-					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-					<div class="wp-block-group">
+<!-- wp:column {"width":"50%","layout":{"type":"default"}} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"width":"33.33%"} -->
+<div class="wp-block-column" style="flex-basis:33.33%"></div>
+<!-- /wp:column -->
 
-						<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"},"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"var:preset|spacing|10"}},"fontSize":"small","ariaLabel":"<?php esc_attr_e( 'About', 'restoreconstruction' ); ?>"} -->
+<!-- wp:column {"width":"66.66%"} -->
+<div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:heading {"level":3,"fontSize":"large"} -->
+<h3 class="wp-block-heading has-large-font-size"><strong>Current Investment Opportunities</strong></h3>
+<!-- /wp:heading -->
 
-						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Team', 'restoreconstruction' ); ?>","url":"#"} /-->
-						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'History', 'restoreconstruction' ); ?>","url":"#"} /-->
-						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Careers', 'restoreconstruction' ); ?>","url":"#"} /-->
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size">Please register for access to our current and future investment opportunities. </p>
+<!-- /wp:paragraph -->
 
-						<!-- /wp:navigation -->
 
-					</div>
-					<!-- /wp:group -->
-				</div>
+<!-- wp:social-links {"className":"whitesocial"} --><ul class="wp-block-social-links whitesocial"><!-- wp:social-link {"service":"linkedin","rel":"","url":"#"} /--><!-- wp:social-link {"service":"x","rel":"","url":"#"} /-->
+	<!-- wp:social-link {"service":"youtube","rel":"","url":"#"} /-->
+</ul><!-- /wp:social-links --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
 
-				<!-- /wp:group -->
+<!-- wp:spacer {"height":"var:preset|spacing|40"} -->
+<div style="height:var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
 
-				<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-				<div class="wp-block-group">
-					<!-- wp:heading {"level":2,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontFamily":"body"} -->
-					<h2 class="wp-block-heading has-medium-font-size has-body-font-family" style="font-style:normal;font-weight:600"><?php esc_html_e( 'Privacy', 'restoreconstruction' ); ?></h2>
-					<!-- /wp:heading -->
-
-					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-					<div class="wp-block-group">
-
-						<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"},"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"var:preset|spacing|10"}},"fontSize":"small","ariaLabel":"<?php esc_attr_e( 'Privacy', 'restoreconstruction' ); ?>"} -->
-
-						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Privacy Policy', 'restoreconstruction' ); ?>","url":"#"} /-->
-						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Terms and Conditions', 'restoreconstruction' ); ?>","url":"#"} /-->
-						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Contact Us', 'restoreconstruction' ); ?>","url":"#"} /-->
-
-						<!-- /wp:navigation -->
-
-					</div>
-					<!-- /wp:group -->
-				</div>
-				<!-- /wp:group -->
-
-				<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-				<div class="wp-block-group">
-					<!-- wp:heading {"level":2,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontFamily":"body"} -->
-					<h2 class="wp-block-heading has-medium-font-size has-body-font-family" style="font-style:normal;font-weight:600"><?php esc_html_e( 'Social', 'restoreconstruction' ); ?></h2>
-					<!-- /wp:heading -->
-
-					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-					<div class="wp-block-group">
-
-						<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"},"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"var:preset|spacing|10"}},"fontSize":"small","ariaLabel":"<?php esc_attr_e( 'Social Media', 'restoreconstruction' ); ?>"} -->
-
-						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Facebook', 'restoreconstruction' ); ?>","url":"#"} /-->
-						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Instagram', 'restoreconstruction' ); ?>","url":"#"} /-->
-						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Twitter/X', 'restoreconstruction' ); ?>","url":"#"} /-->
-
-						<!-- /wp:navigation -->
-
-					</div>
-					<!-- /wp:group -->
-				</div>
-				<!-- /wp:group -->
-			</div>
-			<!-- /wp:group -->
-		</div>
-		<!-- /wp:column -->
-	</div>
-	<!-- /wp:columns -->
-
-	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"0"}}}} -->
-	<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:0">
-		<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast-2","fontSize":"small"} -->
-		<p class="has-contrast-2-color has-text-color has-link-color has-small-font-size">
-		<?php
-			/* Translators: WordPress link. */
-			$wordpress_link = '<a href="' . esc_url( __( 'https://wordpress.org', 'restoreconstruction' ) ) . '" rel="nofollow">WordPress</a>';
-			echo sprintf(
-				/* Translators: Designed with WordPress */
-				esc_html__( 'Designed with %1$s', 'restoreconstruction' ),
-				$wordpress_link
-			);
-			?>
-		</p>
-		<!-- /wp:paragraph -->
-	</div>
-	<!-- /wp:group -->
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
+<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"0.5em"}},"layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group">
+	<!-- wp:navigation {"overlayMenu":"never","style":{"spacing":{"blockGap":"1em"},"layout":{"selfStretch":"fit","flexSize":null},"typography":{"fontSize":"0.8rem"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"left","orientation":"horizontal"}} -->
+		<!-- wp:navigation-link {"label":"Contact","url":"Contact","kind":"custom"} /-->
+		<!-- wp:navigation-link {"label":"Privacy Policy","description":"","url":"Privacy%20Policy","kind":"custom"} /-->
+		<!-- wp:navigation-link {"label":"Terms of Use","description":"","url":"Terms%20of%20Use","kind":"custom"} /-->
+		<!-- wp:navigation-link {"label":"Cookie \u0026 Device Policy","description":"","url":"Cookie%20\u0026%20Device%20Policy","kind":"custom"} /-->
+		<!-- wp:navigation-link {"label":"Disclosure","description":"","url":"Disclosure","kind":"custom"} /-->
+	<!-- /wp:navigation -->
 </div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"0em","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"wrap","orientation":"vertical","justifyContent":"right"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:paragraph {"align":"left","fontSize":"small"} -->
+<p class="has-text-align-left has-small-font-size">Copyright © <?php echo date( "Y" ); ?> · N3 Commercial Realty · All Rights Reserved </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size">Develop by <a href="https://lessgap.com" rel="nofollow">less[GAP]</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->

@@ -1,0 +1,16 @@
+{
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+    ],
+    "require": {
+        "wpackagist-plugin/redux-framework": "*",
+        "htmlburger/carbon-fields": "^3.3",
+        "scssphp/scssphp": "^1.6.0",
+        "gladcodes/keygen": "^1.1",
+        "ifsnop/mysqldump-php": "^2.9",
+        "thamaraiselvam/mysql-import": "^1.1"
+    }
+}

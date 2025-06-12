@@ -1,0 +1,9 @@
+/* Webfont: Hornbill-ExtraBold */@font-face {
+    font-family: 'HornbillExtBd';
+    src: url('Hornbill-ExtraBold.woff2') format('woff2'), /* Modern Browsers */
+         url('Hornbill-ExtraBold.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

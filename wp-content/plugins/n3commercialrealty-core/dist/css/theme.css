@@ -1,0 +1,9 @@
+/*!
+* Coding by Nguyen Pham
+*/:root {
+	--mycolor-default: #3366ff;
+}
+
+.myelement {
+	border-color: var(--mycolor-default);
+}

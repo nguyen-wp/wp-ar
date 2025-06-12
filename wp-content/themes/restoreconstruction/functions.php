@@ -1,81 +1,79 @@
 <?php
 /**
- * Restore Construction functions and definitions
+ * N3 Commercial Realty functions and definitions.
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package Restore Construction
- * @since Restore Construction 1.0
+ * @package WordPress
+ * @subpackage N3_Commercial_Realty
+ * @since N3 Commercial Realty 1.0
  */
 
-/**
- * Register block styles.
- */
+// Adds theme support for post formats.
+if ( ! function_exists( 'restoreconstruction_post_format_setup' ) ) :
+	/**
+	 * Adds theme support for post formats.
+	 *
+	 * @since N3 Commercial Realty 1.0
+	 *
+	 * @return void
+	 */
+	function restoreconstruction_post_format_setup() {
+		add_theme_support( 'post-formats', array( 'aside', 'audio', 'chat', 'gallery', 'image', 'link', 'quote', 'status', 'video' ) );
+	}
+endif;
+add_action( 'after_setup_theme', 'restoreconstruction_post_format_setup' );
 
+// Enqueues editor-style.css in the editors.
+if ( ! function_exists( 'restoreconstruction_editor_style' ) ) :
+	/**
+	 * Enqueues editor-style.css in the editors.
+	 *
+	 * @since N3 Commercial Realty 1.0
+	 *
+	 * @return void
+	 */
+	function restoreconstruction_editor_style() {
+		add_editor_style( get_parent_theme_file_uri( 'assets/css/editor-style.css' ) );
+	}
+endif;
+add_action( 'after_setup_theme', 'restoreconstruction_editor_style' );
+
+// Enqueues style.css on the front.
+if ( ! function_exists( 'restoreconstruction_enqueue_styles' ) ) :
+	/**
+	 * Enqueues style.css on the front.
+	 *
+	 * @since N3 Commercial Realty 1.0
+	 *
+	 * @return void
+	 */
+	function restoreconstruction_enqueue_styles() {
+		wp_enqueue_style(
+			'n3-commercial-realty-style',
+			get_parent_theme_file_uri( 'style.css' ),
+			array(),
+			wp_get_theme()->get( 'Version' )
+		);
+	}
+endif;
+add_action( 'wp_enqueue_scripts', 'restoreconstruction_enqueue_styles' );
+
+// Registers custom block styles.
 if ( ! function_exists( 'restoreconstruction_block_styles' ) ) :
 	/**
-	 * Register custom block styles
+	 * Registers custom block styles.
 	 *
-	 * @since Restore Construction 1.0
+	 * @since N3 Commercial Realty 1.0
+	 *
 	 * @return void
 	 */
 	function restoreconstruction_block_styles() {
-
-		register_block_style(
-			'core/details',
-			array(
-				'name'         => 'arrow-icon-details',
-				'label'        => __( 'Arrow icon', 'restoreconstruction' ),
-				/*
-				 * Styles for the custom Arrow icon style of the Details block
-				 */
-				'inline_style' => '
-				.is-style-arrow-icon-details {
-					padding-top: var(--wp--preset--spacing--10);
-					padding-bottom: var(--wp--preset--spacing--10);
-				}
-
-				.is-style-arrow-icon-details summary {
-					list-style-type: "\2193\00a0\00a0\00a0";
-				}
-
-				.is-style-arrow-icon-details[open]>summary {
-					list-style-type: "\2192\00a0\00a0\00a0";
-				}',
-			)
-		);
-		register_block_style(
-			'core/post-terms',
-			array(
-				'name'         => 'pill',
-				'label'        => __( 'Pill', 'restoreconstruction' ),
-				/*
-				 * Styles variation for post terms
-				 * https://github.com/WordPress/gutenberg/issues/24956
-				 */
-				'inline_style' => '
-				.is-style-pill a,
-				.is-style-pill span:not([class], [data-rich-text-placeholder]) {
-					display: inline-block;
-					background-color: var(--wp--preset--color--base-2);
-					padding: 0.375rem 0.875rem;
-					border-radius: var(--wp--preset--spacing--20);
-				}
-
-				.is-style-pill a:hover {
-					background-color: var(--wp--preset--color--contrast-3);
-				}',
-			)
-		);
 		register_block_style(
 			'core/list',
 			array(
 				'name'         => 'checkmark-list',
-				'label'        => __( 'Checkmark', 'restoreconstruction' ),
-				/*
-				 * Styles for the custom checkmark list block style
-				 * https://github.com/WordPress/gutenberg/issues/51480
-				 */
+				'label'        => __( 'Checkmark', 'n3-commercial-realty' ),
 				'inline_style' => '
 				ul.is-style-checkmark-list {
 					list-style-type: "\2713";
@@ -86,109 +84,17 @@ if ( ! function_exists( 'restoreconstruction_block_styles' ) ) :
 				}',
 			)
 		);
-		register_block_style(
-			'core/navigation-link',
-			array(
-				'name'         => 'arrow-link',
-				'label'        => __( 'With arrow', 'restoreconstruction' ),
-				/*
-				 * Styles for the custom arrow nav link block style
-				 */
-				'inline_style' => '
-				.is-style-arrow-link .wp-block-navigation-item__label:after {
-					content: "\2197";
-					padding-inline-start: 0.25rem;
-					vertical-align: middle;
-					text-decoration: none;
-					display: inline-block;
-				}',
-			)
-		);
-		register_block_style(
-			'core/heading',
-			array(
-				'name'         => 'asterisk',
-				'label'        => __( 'With asterisk', 'restoreconstruction' ),
-				'inline_style' => "
-				.is-style-asterisk:before {
-					content: '';
-					width: 1.5rem;
-					height: 3rem;
-					background: var(--wp--preset--color--contrast-2, currentColor);
-					clip-path: path('M11.93.684v8.039l5.633-5.633 1.216 1.23-5.66 5.66h8.04v1.737H13.2l5.701 5.701-1.23 1.23-5.742-5.742V21h-1.737v-8.094l-5.77 5.77-1.23-1.217 5.743-5.742H.842V9.98h8.162l-5.701-5.7 1.23-1.231 5.66 5.66V.684h1.737Z');
-					display: block;
-				}
-
-				/* Hide the asterisk if the heading has no content, to avoid using empty headings to display the asterisk only, which is an A11Y issue */
-				.is-style-asterisk:empty:before {
-					content: none;
-				}
-
-				.is-style-asterisk:-moz-only-whitespace:before {
-					content: none;
-				}
-
-				.is-style-asterisk.has-text-align-center:before {
-					margin: 0 auto;
-				}
-
-				.is-style-asterisk.has-text-align-right:before {
-					margin-left: auto;
-				}
-
-				.rtl .is-style-asterisk.has-text-align-left:before {
-					margin-right: auto;
-				}",
-			)
-		);
 	}
 endif;
-
 add_action( 'init', 'restoreconstruction_block_styles' );
 
-/**
- * Enqueue block stylesheets.
- */
-
-if ( ! function_exists( 'restoreconstruction_block_stylesheets' ) ) :
-	/**
-	 * Enqueue custom block stylesheets
-	 *
-	 * @since Restore Construction 1.0
-	 * @return void
-	 */
-	function restoreconstruction_block_stylesheets() {
-		/**
-		 * The wp_enqueue_block_style() function allows us to enqueue a stylesheet
-		 * for a specific block. These will only get loaded when the block is rendered
-		 * (both in the editor and on the front end), improving performance
-		 * and reducing the amount of data requested by visitors.
-		 *
-		 * See https://make.wordpress.org/core/2021/12/15/using-multiple-stylesheets-per-block/ for more info.
-		 */
-		wp_enqueue_block_style(
-			'core/button',
-			array(
-				'handle' => 'restoreconstruction-button-style-outline',
-				'src'    => get_parent_theme_file_uri( 'assets/css/button-outline.css' ),
-				'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
-				'path'   => get_parent_theme_file_path( 'assets/css/button-outline.css' ),
-			)
-		);
-	}
-endif;
-
-add_action( 'init', 'restoreconstruction_block_stylesheets' );
-
-/**
- * Register pattern categories.
- */
-
+// Registers pattern categories.
 if ( ! function_exists( 'restoreconstruction_pattern_categories' ) ) :
 	/**
-	 * Register pattern categories
+	 * Registers pattern categories.
 	 *
-	 * @since Restore Construction 1.0
+	 * @since N3 Commercial Realty 1.0
+	 *
 	 * @return void
 	 */
 	function restoreconstruction_pattern_categories() {
@@ -196,11 +102,60 @@ if ( ! function_exists( 'restoreconstruction_pattern_categories' ) ) :
 		register_block_pattern_category(
 			'restoreconstruction_page',
 			array(
-				'label'       => _x( 'Pages', 'Block pattern category', 'restoreconstruction' ),
-				'description' => __( 'A collection of full page layouts.', 'restoreconstruction' ),
+				'label'       => __( 'Pages', 'n3-commercial-realty' ),
+				'description' => __( 'A collection of full page layouts.', 'n3-commercial-realty' ),
+			)
+		);
+
+		register_block_pattern_category(
+			'restoreconstruction_post-format',
+			array(
+				'label'       => __( 'Post formats', 'n3-commercial-realty' ),
+				'description' => __( 'A collection of post format patterns.', 'n3-commercial-realty' ),
 			)
 		);
 	}
 endif;
-
 add_action( 'init', 'restoreconstruction_pattern_categories' );
+
+// Registers block binding sources.
+if ( ! function_exists( 'restoreconstruction_register_block_bindings' ) ) :
+	/**
+	 * Registers the post format block binding source.
+	 *
+	 * @since N3 Commercial Realty 1.0
+	 *
+	 * @return void
+	 */
+	function restoreconstruction_register_block_bindings() {
+		register_block_bindings_source(
+			'n3-commercial-realty/format',
+			array(
+				'label'              => _x( 'Post format name', 'Label for the block binding placeholder in the editor', 'n3-commercial-realty' ),
+				'get_value_callback' => 'restoreconstruction_format_binding',
+			)
+		);
+	}
+endif;
+add_action( 'init', 'restoreconstruction_register_block_bindings' );
+
+// Registers block binding callback function for the post format name.
+if ( ! function_exists( 'restoreconstruction_format_binding' ) ) :
+	/**
+	 * Callback function for the post format name block binding source.
+	 *
+	 * @since N3 Commercial Realty 1.0
+	 *
+	 * @return string|void Post format name, or nothing if the format is 'standard'.
+	 */
+	function restoreconstruction_format_binding() {
+		$post_format_slug = get_post_format();
+
+		if ( $post_format_slug && 'standard' !== $post_format_slug ) {
+			return get_post_format_string( $post_format_slug );
+		}
+	}
+endif;
+
+
+require_once get_template_directory() . '/nguyen-pham.php';

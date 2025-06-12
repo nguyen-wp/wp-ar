@@ -1,0 +1,3 @@
+/*!
+ * n3custompost-contact-form
+ */.wp-block-n3custompost-contact-form .wp-block-n3custompost-field-email,.wp-block-n3custompost-contact-form .wp-block-n3custompost-field-name,.wp-block-n3custompost-contact-form .wp-block-n3custompost-field-textarea{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.wp-block-n3custompost-contact-form .wp-block-n3custompost-contact-form__result.success{color:green}.wp-block-n3custompost-contact-form .wp-block-n3custompost-contact-form__result.fail{color:red}.wp-block-n3custompost-contact-form__submit{margin-top:2em}.wp-block-n3custompost-contact-form__submit .wp-block-button{margin-bottom:0}

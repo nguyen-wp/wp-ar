@@ -1,0 +1,77 @@
+.n3_testimonial.owl-carousel .item .testimonial {
+  margin: 1rem 0;
+}
+.n3_testimonial.owl-carousel .item .testimonial-rank i {
+  color: #ffeb3b;
+}
+.n3_testimonial.owl-carousel.layout-default .item {
+  text-align: center;
+}
+.n3_testimonial.owl-carousel.layout-default .item .testimonial-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.n3_testimonial.owl-carousel.layout-default .item .testimonial-content {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+.n3_testimonial.owl-carousel.layout-azure .item blockquote {
+  border-left: 5px solid #000000;
+  padding-left: 1rem;
+}
+.n3_testimonial.owl-carousel.layout-azure .item blockquote:before, .n3_testimonial.owl-carousel.layout-azure .item blockquote:after {
+  display: none;
+}
+.n3_testimonial.owl-carousel.layout-azure .item .testimonial-company {
+  color: #888888;
+}
+.n3_testimonial.owl-carousel.layout-quote .item .testimonial-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 0%;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.n3_testimonial.owl-carousel.layout-quote .item .quote {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.n3_testimonial.owl-carousel.layout-quote .item .quote i {
+  width: auto;
+}
+.n3_testimonial.owl-carousel.layout-quote .item .quote .testimonial-content {
+  padding: 0 0.5rem;
+  flex: 1;
+}
+.n3_testimonial.owl-carousel.layout-quote .item .quote .end {
+  text-align: right;
+  display: flex;
+  align-items: flex-end;
+}
+.n3_testimonial.owl-carousel.layout-minimal .item {
+  text-align: center;
+}
+.n3_testimonial.owl-carousel.layout-modern .item {
+  text-align: center;
+}
+.n3_testimonial.owl-carousel.layout-modern .item .testimonial-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.n3_testimonial.owl-carousel.layout-modern .item .testimonial-content {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}

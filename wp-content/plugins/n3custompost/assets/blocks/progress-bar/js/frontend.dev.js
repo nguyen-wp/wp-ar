@@ -1,0 +1,88 @@
+"use strict";
+
+!function (n) {
+  function t(o) {
+    if (e[o]) return e[o].exports;
+    var r = e[o] = {
+      i: o,
+      l: !1,
+      exports: {}
+    };
+    return n[o].call(r.exports, r, r.exports, t), r.l = !0, r.exports;
+  }
+
+  var e = {};
+  t.m = n, t.c = e, t.d = function (n, e, o) {
+    t.o(n, e) || Object.defineProperty(n, e, {
+      configurable: !1,
+      enumerable: !0,
+      get: o
+    });
+  }, t.n = function (n) {
+    var e = n && n.__esModule ? function () {
+      return n["default"];
+    } : function () {
+      return n;
+    };
+    return t.d(e, "a", e), e;
+  }, t.o = function (n, t) {
+    return Object.prototype.hasOwnProperty.call(n, t);
+  }, t.p = "", t(t.s = 23);
+}({
+  23: function _(n, t) {
+    /*!
+    * n3custompost-progress-bar
+    */
+    !function (n) {
+      n(document).ready(function (t) {
+        n(document.body).on("post-load", function (n) {
+          e();
+        });
+
+        var e = function e() {
+          n(".wp-block-n3custompost-progress-bar:not(.n3custompost-init)").each(function (t) {
+            function e(t) {
+              a.find(n("".concat(i, "__progress"))).css("width", "".concat(t, "%")), a.find(n("".concat(i, "__percent"))).text("".concat(t, "%"));
+            }
+
+            function o(t) {
+              var e = a.find(n("".concat(i, "__progress"))),
+                  o = function o() {
+                return Math.round(e.width() / e.parent().width() * 100);
+              };
+
+              e.animate({
+                width: "".concat(t, "%")
+              }, {
+                duration: 2e3,
+                progress: function progress() {
+                  a.find(n("".concat(i, "__percent"))).text(o() + "%");
+                }
+              });
+            }
+
+            n(this).addClass("n3custompost-init");
+            var r,
+                c,
+                i = ".wp-block-n3custompost-progress-bar",
+                a = n(this);
+            r = a.find("".concat(i, "__wrapper")).data("fill-amount"), c = a.find("".concat(i, "__wrapper")).data("is-animated");
+            var u = a.find(n("".concat(i, "__wrapper"))),
+                d = new Waypoint({
+              element: u.get(0),
+              handler: function handler() {
+                c ? o(r) : e(r), d.destroy();
+              },
+              offset: "100%"
+            });
+            n(window).resize(function () {
+              e(r);
+            });
+          });
+        };
+
+        e();
+      });
+    }(jQuery);
+  }
+});

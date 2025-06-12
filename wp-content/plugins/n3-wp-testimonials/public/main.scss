@@ -1,0 +1,100 @@
+// 
+.n3_testimonial {
+    &.owl-carousel {
+        .item {
+            .testimonial {
+                margin: 1rem 0;
+            }
+            .testimonial-rank {
+                i {
+                    color: #ffeb3b;
+                }
+            }
+        }
+        &.layout-default {
+            .item {
+                text-align: center;
+                .testimonial-image {
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50%;
+                    margin: 0 auto;
+                    display: block;
+                    margin-bottom: 10px;
+                    overflow: hidden;
+                }
+                .testimonial-content {
+                    margin-top: 2rem;
+                    margin-bottom: .5rem;
+                }
+            }
+        }
+        &.layout-azure {
+            .item {
+                blockquote {
+                    border-left: 5px solid #000000;
+                    padding-left: 1rem;
+                    &:before , &:after {
+                        display: none;
+                    }
+                }
+                .testimonial-company {
+                    color: #888888;
+                }
+            }
+        }
+        &.layout-quote {
+            .item {
+                .testimonial-image {
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 0%;
+                    margin: 0 auto;
+                    display: block;
+                    margin-bottom: 10px;
+                    overflow: hidden;
+                }
+                .quote {
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    i {
+                        width: auto;
+                    }
+                    .testimonial-content { 
+                        padding: 0 .5rem;
+                        flex: 1;
+                    }
+                    .end {
+                        text-align: right;
+                        display: flex;
+                        align-items: flex-end;
+                    }
+                }
+            }
+        }
+        &.layout-minimal {
+            .item {
+                text-align: center;
+            }
+        }
+        &.layout-modern {
+            .item {
+                text-align: center;
+                .testimonial-image {
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50%;
+                    margin: 0 auto;
+                    display: block;
+                    margin-bottom: 10px;
+                    overflow: hidden;
+                }
+                .testimonial-content {
+                    margin-top: 2rem;
+                    margin-bottom: .5rem;
+                }
+            }
+        }
+    }
+}

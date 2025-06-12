@@ -1,0 +1,9 @@
+/* Webfont: Hornbill-Medium */@font-face {
+    font-family: 'HornbillMed';
+    src: url('Hornbill-Medium.woff2') format('woff2'), /* Modern Browsers */
+         url('Hornbill-Medium.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

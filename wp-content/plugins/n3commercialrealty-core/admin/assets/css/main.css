@@ -1,0 +1,219 @@
+body #wpadminbar > #wp-toolbar > #wp-admin-bar-root-default #wp-admin-bar-wp_blocks_admin_bar_menu a,
+body #wpadminbar #wp-admin-bar-wp_blocks_admin_bar_menu a {
+  display: flex;
+  align-items: center;
+}
+body #wpadminbar > #wp-toolbar > #wp-admin-bar-root-default #wp-admin-bar-wp_blocks_admin_bar_menu a .ab-icon.lifemx,
+body #wpadminbar #wp-admin-bar-wp_blocks_admin_bar_menu a .ab-icon.lifemx {
+  background-image: url(../../img/icon.png) !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 16px;
+  width: 16px;
+}
+body #wpadminbar > #wp-toolbar > #wp-admin-bar-root-default #wp-admin-bar-wp_blocks_admin_bar_menu ul .ab-item,
+body #wpadminbar #wp-admin-bar-wp_blocks_admin_bar_menu ul .ab-item {
+  display: flex;
+  align-items: center;
+}
+body #wpadminbar > #wp-toolbar > #wp-admin-bar-root-default #wp-admin-bar-wp_blocks_admin_bar_menu ul .ab-item span,
+body #wpadminbar #wp-admin-bar-wp_blocks_admin_bar_menu ul .ab-item span {
+  line-height: 1;
+  margin-right: 5px;
+}
+
+.redux-main #redux-sticky #info_bar {
+  height: 48px;
+}
+
+.theme-browser .theme .theme-name {
+  height: unset;
+}
+
+.wp-admin footer a {
+  color: #0073aa;
+}
+.wp-admin footer a:hover {
+  color: #00a0d2;
+}
+
+.wp-lightweight-table-admin {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border-spacing: 0;
+}
+.wp-lightweight-table-admin tr th {
+  background-color: #f0f0f1;
+}
+.wp-lightweight-table-admin tr th:first-child {
+  width: 20px;
+}
+.wp-lightweight-table-admin tr td,
+.wp-lightweight-table-admin tr th {
+  padding: 3px 5px;
+  margin: 0;
+  border: 1px solid #dfdfdf;
+  text-align: left;
+}
+
+.cf-field__body input[type=checkbox] {
+  font-size: 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 2.5rem;
+  height: 22px;
+  background: #ddd;
+  border-radius: 2.5rem;
+  cursor: pointer;
+  outline: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  border: 0 !important;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.cf-field__body input[type=checkbox]:checked {
+  background: #0ebeff;
+}
+.cf-field__body input[type=checkbox]:before {
+  display: none;
+}
+.cf-field__body input[type=checkbox]:after {
+  position: absolute;
+  content: "";
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #fff;
+  -webkit-box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.3);
+  left: 3px;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.cf-field__body input[type=checkbox]:checked:after {
+  left: calc(100% - 19px);
+}
+
+.cf-container__tabs .cf-container__tabs-item {
+  background: #f0f0f1;
+  cursor: pointer;
+}
+.cf-container__tabs .cf-container__tabs-item button {
+  cursor: pointer;
+}
+.cf-container__tabs .cf-container__tabs-item.cf-container__tabs-item--current {
+  background: #f2f2f2;
+  background: linear-gradient(180deg, #f2f2f2 0, #fff);
+}
+
+.carbon-theme-options .postbox .cf-container__tabs-list .cf-container__tabs-item,
+.carbon-theme-options .postbox-container .postbox .cf-container__tabs-list .cf-container__tabs-item {
+  border-radius: 0.25rem 0.25rem 0 0;
+  margin: 0 4px 0 0;
+}
+.carbon-theme-options .postbox,
+.carbon-theme-options .postbox-container .postbox {
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  overflow: hidden;
+}
+
+.expirationdate.column-expirationdate, .manage-column.column-expirationdate {
+  width: 150px !important;
+}
+
+.madetable table .button,
+.csstickets table .button {
+  vertical-align: unset;
+  min-height: initial;
+  line-height: 1.5;
+  padding: 1px 5px;
+  margin: 3px 0;
+}
+
+.madetable .table,
+.csstickets .tickets-table {
+  border: solid 1px #dadada;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  background: #fff;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+
+.madetable .table thead th {
+  white-space: nowrap;
+}
+.madetable .table thead th,
+.madetable .table thead td {
+  background-color: #2271b1;
+  border: solid 1px #2271b1;
+  color: #ffffff;
+  padding: 10px;
+  text-align: left;
+}
+
+.madetable .table tbody tr:hover,
+.csstickets .tickets-table tbody tr:hover {
+  background-color: #f0f0f0;
+}
+
+.madetable .table tbody tr td,
+.csstickets .tickets-table tbody tr td {
+  border: solid 1px #dadada;
+  color: #333;
+  padding: 7px 10px;
+}
+
+.madetable .table tbody tr td.admin-lift-tickets-text-danger,
+.csstickets .tickets-table tbody tr td.admin-lift-tickets-text-danger {
+  color: #a94298;
+  font-weight: bold;
+}
+
+.madetable .table ins,
+.csstickets .tickets-table ins {
+  color: #00841a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.madelabpagenavi .tablenav-pages ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.madelabpagenavi .tablenav-pages .page-numbers {
+  border: 1px solid #d1d1d1;
+  display: inline-flex;
+  padding: 5px 10px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background: #fff;
+  margin-left: 2px;
+}
+
+.madelabpagenavi .tablenav-pages .page-numbers.current {
+  background: #2270b1;
+  color: #fff;
+  border-color: #2270b1;
+}

@@ -1,0 +1,9 @@
+/* Webfont: Hornbill-HeavyItalic */@font-face {
+    font-family: 'HornbillHeavyIta';
+    src: url('Hornbill-HeavyItalic.woff2') format('woff2'), /* Modern Browsers */
+         url('Hornbill-HeavyItalic.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

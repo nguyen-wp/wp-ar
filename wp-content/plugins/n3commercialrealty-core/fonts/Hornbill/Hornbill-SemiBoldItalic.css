@@ -1,0 +1,9 @@
+/* Webfont: Hornbill-SemiBoldItalic */@font-face {
+    font-family: 'HornbillSemBdIta';
+    src: url('Hornbill-SemiBoldItalic.woff2') format('woff2'), /* Modern Browsers */
+         url('Hornbill-SemiBoldItalic.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
