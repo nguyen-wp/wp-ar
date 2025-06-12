@@ -8,12 +8,12 @@
  *
  * @package WordPress
  * @subpackage N3_Commercial_Realty
- * @since N3 Commercial Realty 1.0
+ * @since Restore Construction 1.0
  */
 
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|50"}},"color":{"background":"#0f142a"},"elements":{"link":{"color":{"text":"#fff"},":hover": {"typography": { "textDecoration": "underline" }, "color": { "text": "#8fa63c !important" } }}}},"textColor":"base","layout":{"type":"constrained","contentSize":"1140px"}} -->
-<div class="wp-block-group has-base-color has-text-color has-background has-link-color" style="background-color:#0f142a;padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:group {"align":"wide","layout":{"type":"constrained","justifyContent":"left","contentSize":"1140px"}} -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|50"}},"color":{"background":"#4b1304"},"elements":{"link":{"color":{"text":"#fff"},":hover": {"typography": { "textDecoration": "underline" }, "color": { "text": "#cb1513 !important" } }}}},"textColor":"base","layout":{"type":"constrained","contentSize":"1140px"}} -->
+<div class="wp-block-group has-base-color has-text-color has-background has-link-color" style="background-color:#4b1304;padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:group {"align":"wide","layout":{"type":"constrained","justifyContent":"left","contentSize":"1140px"}} -->
 <div class="wp-block-group alignwide"><!-- wp:site-logo {"shouldSyncIcon":true,"className":"invert contrast-200 brightness-0"} /-->
 
 <!-- wp:spacer {"height":"var:preset|spacing|30"} -->
@@ -84,7 +84,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0em","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"wrap","orientation":"vertical","justifyContent":"right"}} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:paragraph {"align":"left","fontSize":"small"} -->
-<p class="has-text-align-left has-small-font-size">Copyright © <?php echo date( "Y" ); ?> · N3 Commercial Realty · All Rights Reserved </p>
+<p class="has-text-align-left has-small-font-size">Copyright © <?php echo date( "Y" ); ?> · Restore Construction · All Rights Reserved </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->

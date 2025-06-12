@@ -1,12 +1,12 @@
 <?php
 /**
- * N3 Commercial Realty functions and definitions.
+ * Restore Construction functions and definitions.
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
  * @package WordPress
  * @subpackage N3_Commercial_Realty
- * @since N3 Commercial Realty 1.0
+ * @since Restore Construction 1.0
  */
 
 // Adds theme support for post formats.
@@ -14,7 +14,7 @@ if ( ! function_exists( 'restoreconstruction_post_format_setup' ) ) :
 	/**
 	 * Adds theme support for post formats.
 	 *
-	 * @since N3 Commercial Realty 1.0
+	 * @since Restore Construction 1.0
 	 *
 	 * @return void
 	 */
@@ -29,7 +29,7 @@ if ( ! function_exists( 'restoreconstruction_editor_style' ) ) :
 	/**
 	 * Enqueues editor-style.css in the editors.
 	 *
-	 * @since N3 Commercial Realty 1.0
+	 * @since Restore Construction 1.0
 	 *
 	 * @return void
 	 */
@@ -44,7 +44,7 @@ if ( ! function_exists( 'restoreconstruction_enqueue_styles' ) ) :
 	/**
 	 * Enqueues style.css on the front.
 	 *
-	 * @since N3 Commercial Realty 1.0
+	 * @since Restore Construction 1.0
 	 *
 	 * @return void
 	 */
@@ -64,7 +64,7 @@ if ( ! function_exists( 'restoreconstruction_block_styles' ) ) :
 	/**
 	 * Registers custom block styles.
 	 *
-	 * @since N3 Commercial Realty 1.0
+	 * @since Restore Construction 1.0
 	 *
 	 * @return void
 	 */
@@ -93,7 +93,7 @@ if ( ! function_exists( 'restoreconstruction_pattern_categories' ) ) :
 	/**
 	 * Registers pattern categories.
 	 *
-	 * @since N3 Commercial Realty 1.0
+	 * @since Restore Construction 1.0
 	 *
 	 * @return void
 	 */
@@ -123,7 +123,7 @@ if ( ! function_exists( 'restoreconstruction_register_block_bindings' ) ) :
 	/**
 	 * Registers the post format block binding source.
 	 *
-	 * @since N3 Commercial Realty 1.0
+	 * @since Restore Construction 1.0
 	 *
 	 * @return void
 	 */
@@ -144,7 +144,7 @@ if ( ! function_exists( 'restoreconstruction_format_binding' ) ) :
 	/**
 	 * Callback function for the post format name block binding source.
 	 *
-	 * @since N3 Commercial Realty 1.0
+	 * @since Restore Construction 1.0
 	 *
 	 * @return string|void Post format name, or nothing if the format is 'standard'.
 	 */

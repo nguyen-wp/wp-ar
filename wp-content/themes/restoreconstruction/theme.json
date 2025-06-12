@@ -14,38 +14,38 @@
 					"slug": "base"
 				},
 				{
-					"color": "#0f142a",
+					"color": "#4b1304",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
 				{
-					"color": "#FFEE58",
-					"name": "N3 Color 1",
+					"color": "#ffde59",
+					"name": "Color 1",
 					"slug": "accent-1"
 				},
 				{
-					"color": "#ebffe6",
-					"name": "N3 Color 2",
+					"color": "#000000",
+					"name": "Color 2",
 					"slug": "accent-2"
 				},
 				{
-					"color": "#8fa63c",
-					"name": "N3 Color 3",
+					"color": "#cb1513",
+					"name": "Color 3",
 					"slug": "accent-3"
 				},
 				{
-					"color": "#686868",
-					"name": "N3 Color 4",
+					"color": "#dad9d9",
+					"name": "Color 4",
 					"slug": "accent-4"
 				},
 				{
-					"color": "#FBFAF3",
-					"name": "N3 Color 5",
+					"color": "#7a0806",
+					"name": "Color 5",
 					"slug": "accent-5"
 				},
 				{
 					"color": "color-mix(in srgb, currentColor 20%, transparent)",
-					"name": "N3 Color 6",
+					"name": "Color 6",
 					"slug": "accent-6"
 				}
 			]
@@ -307,7 +307,7 @@
 			},
 			"core/comment-author-name": {
 				"color": {
-					"text": "#0f142a"
+					"text": "#4b1304"
 				},
 				"elements": {
 					"link": {
@@ -355,7 +355,7 @@
 				"elements": {
 					"link": {
 						"color": {
-							"text": "#0f142a"
+							"text": "#4b1304"
 						}
 					}
 				}
@@ -364,7 +364,7 @@
 				"elements": {
 					"link": {
 						"color": {
-							"text": "#0f142a"
+							"text": "#4b1304"
 						}
 					}
 				},
@@ -376,7 +376,7 @@
 				"elements": {
 					"link": {
 						"color": {
-							"text": "#0f142a"
+							"text": "#4b1304"
 						}
 					}
 				},
@@ -429,7 +429,7 @@
 				"elements": {
 					"link": {
 						"color" : {
-							"text": "#0f142a"
+							"text": "#4b1304"
 						},
 						":hover": {
 							"typography": {
@@ -630,7 +630,7 @@
 								"textDecoration": "underline"
 							},
 							"color": {
-								"text": "#8fa63c !important"
+								"text": "#cb1513 !important"
 							} 
 						},
 						"typography": {
@@ -649,7 +649,7 @@
 					"radius": "0"
 				},
 				"color": {
-					"background": "#8fa63c",
+					"background": "#cb1513",
 					"text": "var:preset|color|base"
 				},
 				":focus": {
@@ -661,7 +661,7 @@
 				":hover": {
 					"color": {
 						"background": "#e4e4e4",
-						"text": "#0f142a"
+						"text": "#4b1304"
 					},
 					"border": {
 						"color": "transparent"
@@ -728,14 +728,14 @@
 			},
 			"link": {
 				"color": {
-					"text": "#8fa63c"
+					"text": "#cb1513"
 				},
 				":hover": {
 					"typography": {
 						"textDecoration": "none"
 					},
 					"color": {
-						"text": "#0f142a"
+						"text": "#4b1304"
 					} 
 				}
 			}
@@ -787,62 +787,62 @@
 		{
 			"name": "archive-n3_careers",
 			"postTypes": ["n3_careers"],
-			"title": "N3 Career Archive"
+			"title": "CR Career Archive"
 		},
 		{
 			"name": "single-n3_careers",
 			"postTypes": ["n3_careers"],
-			"title": "N3 Career Single"
+			"title": "CR Career Single"
 		},
 		{
 			"name": "archive-n3_teams",
 			"postTypes": ["n3_teams"],
-			"title": "N3 Team Archive"
+			"title": "CR Team Archive"
 		},
 		{
 			"name": "single-n3_teams",
 			"postTypes": ["n3_teams"],
-			"title": "N3 Team Single"
+			"title": "CR Team Single"
 		},
 		{
 			"name": "archive-n3_maps",
 			"postTypes": ["n3_maps"],
-			"title": "N3 Map Archive"
+			"title": "CR Map Archive"
 		},
 		{
 			"name": "single-n3_maps",
 			"postTypes": ["n3_maps"],
-			"title": "N3 Map Single"
+			"title": "CR Map Single"
 		},
 		{
 			"name": "archive-n3_properties",
 			"postTypes": ["n3_properties"],
-			"title": "N3 Property Archive"
+			"title": "CR Property Archive"
 		},
 		{
 			"name": "single-n3_properties",
 			"postTypes": ["n3_properties"],
-			"title": "N3 Property Single"
+			"title": "CR Property Single"
 		},
 		{
 			"name": "archive-n3_projects",
 			"postTypes": ["n3_projects"],
-			"title": "N3 Project Archive"
+			"title": "CR Project Archive"
 		},
 		{
 			"name": "single-n3_projects",
 			"postTypes": ["n3_projects"],
-			"title": "N3 Project Single"
+			"title": "CR Project Single"
 		},
 		{
 			"name": "archive-n3_services",
 			"postTypes": ["n3_services"],
-			"title": "N3 Service Archive"
+			"title": "CR Service Archive"
 		},
 		{
 			"name": "single-n3_services",
 			"postTypes": ["n3_services"],
-			"title": "N3 Service Single"
+			"title": "CR Service Single"
 		}
 	]
 }

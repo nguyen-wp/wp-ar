@@ -11,7 +11,7 @@
  *
  * @package WordPress
  * @subpackage N3_Commercial_Realty
- * @since N3 Commercial Realty 1.0
+ * @since Restore Construction 1.0
  */
 
 ?>
@@ -223,7 +223,7 @@
 		<!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 		<div class="wp-block-group alignwide">
 			<!-- wp:paragraph {"fontSize":"small"} -->
-			<p class="has-small-font-size"><?php esc_html_e( 'N3 Commercial Realty', 'n3-commercial-realty' ); ?></p>
+			<p class="has-small-font-size"><?php esc_html_e( 'Restore Construction', 'n3-commercial-realty' ); ?></p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph {"fontSize":"small"} -->
 			<p class="has-small-font-size"><?php esc_html_e( 'email@example.com', 'n3-commercial-realty' ); ?><br><?php echo esc_html_x( '+1 555 349 1806', 'Phone number.', 'n3-commercial-realty' ); ?></p>

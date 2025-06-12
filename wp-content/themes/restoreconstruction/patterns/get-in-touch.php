@@ -1,17 +1,17 @@
 <?php
 /**
- * Title: N3 - Get in Touch
+ * Title: CR - Get in Touch
  * Slug: n3-commercial-realty/get-in-touch
  * Categories: about
  * Description: This pattern displays a section with a wide column and a narrow column. The wide column contains a title and a subtitle. The narrow column contains a heading and a paragraph.
  *
  * @package WordPress
  * @subpackage N3_Commercial_Realty
- * @since N3 Commercial Realty 1.0
+ * @since Restore Construction 1.0
  */
 
 ?>
-<!-- wp:group {"metadata":{"categories":["call-to-action"],"patternName":"n3-commercial-realty/get-in-touch","name":"N3 - Get in Touch"},"align":"full","style":{"color":{"text":"#000000","background":"#fbfbfb"}},"layout":{"type":"default"}} -->
+<!-- wp:group {"metadata":{"categories":["call-to-action"],"patternName":"n3-commercial-realty/get-in-touch","name":"CR - Get in Touch"},"align":"full","style":{"color":{"text":"#000000","background":"#fbfbfb"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull has-text-color has-background" style="color:#000000;background-color:#fbfbfb"><!-- wp:spacer {"height":"64px"} -->
 <div style="height:64px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->

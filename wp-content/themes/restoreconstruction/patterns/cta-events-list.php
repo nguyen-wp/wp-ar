@@ -7,7 +7,7 @@
  *
  * @package WordPress
  * @subpackage N3_Commercial_Realty
- * @since N3 Commercial Realty 1.0
+ * @since Restore Construction 1.0
  */
 
 ?>

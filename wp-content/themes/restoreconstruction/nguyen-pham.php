@@ -107,7 +107,7 @@ function ___addToAdminBar() {
     global $wp_admin_bar;
     $wp_admin_bar->add_menu( array(
         'id'    => 'gp-reusable-projects',
-        'title' => esc_html__( 'N3 Custom Block', 'gp-theme' ),
+        'title' => esc_html__( 'CR Custom Block', 'gp-theme' ),
         'parent' => 'made_theme_options',
         'href'  => admin_url( 'edit.php?post_type=wp_block' ),
     ));

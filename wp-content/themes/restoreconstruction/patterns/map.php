@@ -1,17 +1,17 @@
 <?php
 /**
- * Title: N3 - Map
+ * Title: CR - Map
  * Slug: n3-commercial-realty/map
  * Categories: about
  * Description: This pattern displays a section with a wide column and a narrow column. The wide column contains a title and a subtitle. The narrow column contains a heading and a paragraph.
  *
  * @package WordPress
  * @subpackage N3_Commercial_Realty
- * @since N3 Commercial Realty 1.0
+ * @since Restore Construction 1.0
  */
 
 ?>
-<!-- wp:cover {"metadata":{"categories":["about"],"patternName":"n3-commercial-realty/map","name":"N3 - Map"},"dimRatio":0,"isDark":false,"layout":{"type":"constrained","contentSize":"1680px"}} -->
+<!-- wp:cover {"metadata":{"categories":["about"],"patternName":"n3-commercial-realty/map","name":"CR - Map"},"dimRatio":0,"isDark":false,"layout":{"type":"constrained","contentSize":"1680px"}} -->
 <div class="wp-block-cover is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"fontSize":"medium"} -->
 <p class="has-medium-font-size"><strong>Filter by</strong></p>

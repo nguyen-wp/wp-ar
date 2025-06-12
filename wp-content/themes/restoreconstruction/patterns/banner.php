@@ -1,17 +1,17 @@
 <?php
 /**
- * Title: N3 - Banner
+ * Title: CR - Banner
  * Slug: n3-commercial-realty/banner
  * Categories: about, call-to-action
  * Description: Banner for the about page
  *
  * @package WordPress
  * @subpackage N3_Commercial_Realty
- * @since N3 Commercial Realty 1.0
+ * @since Restore Construction 1.0
  */
 
 ?>
-<!-- wp:cover {"dimRatio":0,"isUserOverlayColor":true,"isDark":false,"metadata":{"name":"N3 - Banner"},"align":"full","className":"grid-bg","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}},"dimensions":{"aspectRatio":"auto"}},"layout":{"type":"constrained"}} -->
+<!-- wp:cover {"dimRatio":0,"isUserOverlayColor":true,"isDark":false,"metadata":{"name":"CR - Banner"},"align":"full","className":"grid-bg","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}},"dimensions":{"aspectRatio":"auto"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-cover alignfull is-light grid-bg" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|50"}},"layout":{"type":"grid","minimumColumnWidth":null,"columnCount":10}} -->
 <div class="wp-block-group alignwide"><!-- wp:group {"style":{"layout":{"columnSpan":4},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base","layout":{"type":"flex","orientation":"vertical","verticalAlignment":"center"}} -->
 <div class="wp-block-group has-base-color has-text-color has-link-color"><!-- wp:heading {"className":"font-semibold","fontSize":"x-large"} -->

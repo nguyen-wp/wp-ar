@@ -31,7 +31,7 @@
 
 .redux-container .redux-sidebar .redux-group-menu li .subsection { background: #fff; }
 
-.redux-container .redux-sidebar .redux-group-menu li .subsection .redux-group-tab-link-li .redux-group-tab-link-a { font-weight: 400 !important; color: #686868 !important; background-color: #fff !important; }
+.redux-container .redux-sidebar .redux-group-menu li .subsection .redux-group-tab-link-li .redux-group-tab-link-a { font-weight: 400 !important; color: #dad9d9 !important; background-color: #fff !important; }
 
 .redux-container .redux-sidebar .redux-group-menu li .subsection .redux-group-tab-link-li .redux-group-tab-link-a:hover { background-color: #fff !important; color: #04a4cc !important; opacity: 1; }
 
