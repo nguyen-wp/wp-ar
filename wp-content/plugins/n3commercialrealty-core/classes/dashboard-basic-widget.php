@@ -122,7 +122,7 @@ $made_welcome_full = $made_theme['made-theme-dashboard-box-short-content'] ? $ma
             <div class="row small">
                 <div class="col-12">
                     <p class="text-muted mb-0">Version: <?php echo N3COMMERCIALREALTY_CORE_VERSION; ?></p>
-                    <p class="small text-sm text-muted m-0">This is a product of <a href="https://n3commercialrealty.com" target="_blank">Restore Construction</a>.</p>
+                    <p class="small text-sm text-muted m-0">This is a product of <a href="https://restoreconstruction.com" target="_blank">Restore Construction</a>.</p>
                     <p class="small text-sm text-muted m-0">Copyright &copy; <?php echo date('Y'); ?>. All rights reserved.</p>
                 </div>
             </div>

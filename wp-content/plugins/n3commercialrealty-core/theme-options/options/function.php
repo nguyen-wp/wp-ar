@@ -97,7 +97,7 @@ function _____MADEcheckLicense() {
 		}
 	}
 	if(!$LicenseVerify){
-		echo '<div class="wrap"><div style="margin: 1rem 0; display: block; background: #ffcfcf; border: 1px solid #d28585; padding: 1rem; border-radius: 5px;">Your license is expired. Please renew the license to get the latest update of MADE Lab Theme. In order to receive all benefits of MADE Lab Theme, you need to activate your copy of the plugin. By activating MADE Lab Theme license you will unlock premium options - direct plugin updates, access to template library and official support. Don\'t have direct license yet? <a href="//n3commercialrealty.com" target="_blank">Purchase MADE Lab Theme license.</a></div></div>';
+		echo '<div class="wrap"><div style="margin: 1rem 0; display: block; background: #ffcfcf; border: 1px solid #d28585; padding: 1rem; border-radius: 5px;">Your license is expired. Please renew the license to get the latest update of MADE Lab Theme. In order to receive all benefits of MADE Lab Theme, you need to activate your copy of the plugin. By activating MADE Lab Theme license you will unlock premium options - direct plugin updates, access to template library and official support. Don\'t have direct license yet? <a href="//restoreconstruction.com" target="_blank">Purchase MADE Lab Theme license.</a></div></div>';
 	}
 
 }

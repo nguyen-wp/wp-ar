@@ -17,7 +17,7 @@
  * Description:       @Restore Construction Testimonials will help you to create testimonials for your website. You can create testimonials for your team, your clients, your partners, etc.
  * Version:           2.3.0
  * Author:            Restore Construction
- * Author URI:        https://n3commercialrealty.com
+ * Author URI:        https://restoreconstruction.com
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       n3-wp-testimonials

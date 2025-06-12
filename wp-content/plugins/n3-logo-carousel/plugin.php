@@ -6,7 +6,7 @@
  * Requires PHP:      7.0
  * Version:           2.0.3
  * Author:            Restore Construction
- * Author URI:        https://n3commercialrealty.com
+ * Author URI:        https://restoreconstruction.com
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       n3-logo-carousel-block

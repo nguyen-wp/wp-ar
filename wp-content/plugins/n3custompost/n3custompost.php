@@ -4,7 +4,7 @@
  * Description: Extra Gutenberg blocks for building seamless and aesthetic websites in the WordPress block editor.
  * Version: 1.8.3
  * Author:            Restore Construction
- * Author URI:        https://n3commercialrealty.com
+ * Author URI:        https://restoreconstruction.com
  * License: GPLv2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: n3custompost

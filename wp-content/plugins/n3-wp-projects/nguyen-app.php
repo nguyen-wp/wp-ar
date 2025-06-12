@@ -17,7 +17,7 @@
  * Description:       @Restore Construction Projects is a simple WordPress plugin that allows you to create a Projects page for your website.
  * Version:           2.5.1
  * Author:            Restore Construction  
- * Author URI:        https://n3commercialrealty.com/
+ * Author URI:        https://restoreconstruction.com/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       n3-wp-projects
