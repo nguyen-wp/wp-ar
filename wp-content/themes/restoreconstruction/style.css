@@ -308,28 +308,103 @@ h1, h2, h3, h4, h5, h6, blockquote, caption, figcaption, p {
 	fill: #fff;
 }
 
-.wp-block-navigation__responsive-container.is-menu-open {
-	background: #7a0806 !important;
-	color: #fff !important;
-	a {
+@media (max-width: 599px) {
+	
+	#header .wp-block-navigation__responsive-container.is-menu-open {
+		background: #7a0806 !important;
 		color: #fff !important;
+		a {
+			color: #fff !important;
+		}
+	}
+
+
+	#header .wp-block-navigation__responsive-container .wp-block-navigation__responsive-container-content > ul  {
+		gap: 0;
+		width: 100%;
+		display: flex;
+		padding: 0;
+		margin: 0;
+	}
+	#header .wp-block-navigation__responsive-container .wp-block-navigation__responsive-container-content > ul ul  {
+		width: 100%;
+		display: flex;
+		padding: 0;
+		margin: 0;
+	}
+	#header .wp-block-navigation__responsive-container .wp-block-navigation__responsive-container-content > ul li {
+		width: 100%;
+		display: flex;
+		margin: 0;
+	}
+	#header .wp-block-navigation__responsive-container .wp-block-navigation__responsive-container-content > ul li a {
+		padding: .5rem 0rem;
+		display: block;
+		width: 100%;
+		border-bottom: 1px solid #e5e5e56e;
+		outline: none;
+		text-decoration: none;
+	}
+	#header .wp-block-navigation__responsive-container .wp-block-navigation__responsive-container-content > ul li a:hover {
+		background: #ffffff29;
+	}
+
+	#header .wp-block-navigation__responsive-container .wp-block-navigation__responsive-container-content > ul > li > ul > li > a{
+		padding-left: 15px;
+		position: relative;
+	}
+
+	#header .wp-block-navigation__responsive-container .wp-block-navigation__responsive-container-content > ul > li > ul > li > a:before {
+		content: "";
+		position: absolute;
+		top: 50%;
+		left: 5px;
+		border: solid #ffffff;
+		border-width: 0 2px 2px 0;
+		display: inline-block;
+		padding: 2px;
+		transform: rotate(-45deg) translateY(calc(-50% - 1px));
+		-webkit-transform: rotate(-45deg) translateY(calc(-50% - 1px))
+	}
+
+	#header .wp-block-navigation__responsive-container .wp-block-navigation__responsive-container-content > ul > li > ul > li > ul > li  > a{
+		padding-left: 30px;
+		position: relative;
+	}
+
+	#header .wp-block-navigation__responsive-container .wp-block-navigation__responsive-container-content > ul > li > ul > li > ul > li  > a:before {
+		content: "";
+		position: absolute;
+		top: 50%;
+		left: 15px;
+		border: solid #ffffff;
+		border-width: 0 2px 2px 0;
+		display: inline-block;
+		padding: 2px;
+		transform: rotate(-45deg) translateY(calc(-50% - 1px));
+		-webkit-transform: rotate(-45deg) translateY(calc(-50% - 1px))
 	}
 }
 
-.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .has-child .wp-block-navigation__submenu-container,
-.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .has-child .wp-block-navigation__submenu-container {
-	padding: 1rem 0 0 1rem ;
-}
-
-.wp-block-navigation__responsive-container .wp-block-navigation ul  {
-	width: 100%;
-}
-.wp-block-navigation__responsive-container .wp-block-navigation ul ul  {
-	width: 100%;
-}
-.wp-block-navigation__responsive-container .wp-block-navigation ul li {
-	border-bottom: 1px solid #e5e5e5;
-}
-.wp-block-navigation__responsive-container .wp-block-navigation ul li a {
-	padding: .5rem 0rem;
+@media (min-width: 600px) {
+	#header .wp-block-navigation__responsive-container .wp-block-navigation__responsive-container-content ul li > a {
+		text-decoration: none;
+	}
+	#header .wp-block-navigation__responsive-container .wp-block-navigation__responsive-container-content ul ul li {
+		border-bottom: 1px solid #e5e5e56e;
+	}
+	#header .wp-block-navigation__responsive-container .wp-block-navigation__responsive-container-content ul ul li:hover {
+		background: #7a0806 !important;
+	}
+	#header .wp-block-navigation__responsive-container .wp-block-navigation__responsive-container-content ul ul li:last-child {
+		border-bottom: none;
+	}
+	#header .wp-block-navigation__responsive-container .wp-block-navigation__responsive-container-content ul ul li:hover > a {
+		color: #fff !important;
+		text-decoration: none;
+	}
+	#header .wp-block-navigation__responsive-container .wp-block-navigation__responsive-container-content ul ul li:hover > button {
+		color: #fff !important;
+		text-decoration: none;
+	}
 }

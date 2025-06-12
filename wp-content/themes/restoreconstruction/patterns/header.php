@@ -45,7 +45,7 @@
 	<!-- /wp:group -->
 	
 	<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"},"elements":{"link":{":hover":{"color":{"text":"#cb1513"}}}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
-	<div class="wp-block-group !hidden sm:!flex hidden! sm:flex!">
+	<div class="wp-block-group !hidden md:!flex hidden! md:flex!">
 		<!-- wp:navigation {"overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"fontSize":"small"} -->
 			<!-- wp:buttons -->
 			<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"accent-3","textColor":"base","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"spacing":{"padding":{"left":"var:preset|spacing|20","right":"var:preset|spacing|20"}}},"fontSize":"small"} -->
