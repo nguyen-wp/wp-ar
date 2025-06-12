@@ -753,11 +753,6 @@
 			"title": "Vertical Header"
 		},
 		{
-			"area": "header-home",
-			"name": "header-home",
-			"title": "Header Home"
-		},
-		{
 			"area": "footer",
 			"name": "footer",
 			"title": "Footer"

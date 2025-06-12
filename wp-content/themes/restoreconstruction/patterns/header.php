@@ -16,7 +16,11 @@
 	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
 	<div id="header" class="wp-block-group alignfull" style="padding-top:0;padding-bottom:0"><!-- wp:group {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-5"}}},"spacing":{"padding":{"top":"0px","bottom":"0px"}}},"backgroundColor":"base","textColor":"accent-5","layout":{"type":"constrained"}} -->
 	<div class="wp-block-group has-accent-5-color has-base-background-color has-text-color has-background has-link-color" style="padding-top:0px;padding-bottom:0px"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-	<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"><!-- wp:site-logo {"width":230,"className":"logo"} /-->
+	<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)">
+		
+	<!-- wp:image {"width":"230px","linkDestination":"none"} -->
+	<figure class="wp-block-image is-resized"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/logo.jpg' ); ?>" alt="<?php esc_attr_e( 'Restore Construction Logo', 'restoreconstruction' ); ?>" class="wp-image-7" style="width:230px"/></figure>
+	<!-- /wp:image -->
 	
 	<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"},"elements":{"link":{":hover":{"color":{"text":"#cb1513"}}}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
 	<div class="wp-block-group">
