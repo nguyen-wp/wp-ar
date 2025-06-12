@@ -30,7 +30,7 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-define( 'MADE_WP_TESTIMONIAL_NICENAME', 'GENERALPUBLIC - N3 Testimonials' );
+define( 'MADE_WP_TESTIMONIAL_NICENAME', 'GENERALPUBLIC - RC Testimonials' );
 define( 'MADE_WP_TESTIMONIAL_PREFIX', 'made_wp_testimonials' );
 define( 'MADE_WP_TESTIMONIAL_VERSION', '2.3.0' );
 define( 'GENERALPUBLIC_WP_TESTIMONIAL_CORE_URL', plugin_dir_url( __FILE__ ) ); // Return https://...

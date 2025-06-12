@@ -1020,7 +1020,7 @@ if (!class_exists('GPC_Core_MAP')) {
             global $wp_admin_bar;
             $wp_admin_bar->add_menu( array(
                 'id'    => 'gp-maps',
-                'title' => esc_html__( 'N3 Maps', 'gp-theme' ),
+                'title' => esc_html__( 'RC Maps', 'gp-theme' ),
                 'parent' => 'made_theme_options',
                 'href'  => admin_url( 'edit.php?post_type=n3_maps' ),
             ));
@@ -1188,7 +1188,7 @@ if (!class_exists('GPC_Core_MAP')) {
         public function ___n3_maps() {
             register_post_type('n3_maps', 
                 array(	
-                    'label' => 'N3 Maps',
+                    'label' => 'RC Maps',
                     'description' => 'Create a post of Maps',
                     'public' => true,
                     'show_ui' => true,
@@ -1235,9 +1235,9 @@ if (!class_exists('GPC_Core_MAP')) {
                     // Order by post ID
                     'order' => 'desc',
                     'labels' => array (
-                        'name' => 'N3 Maps',
-                        'singular_name' => 'N3 Maps',
-                        'menu_name' => 'N3 Maps',
+                        'name' => 'RC Maps',
+                        'singular_name' => 'RC Maps',
+                        'menu_name' => 'RC Maps',
                         'add_new' => 'Add Map',
                         'add_new_item' => 'Add New Map',
                         'new_item' => 'New Map',

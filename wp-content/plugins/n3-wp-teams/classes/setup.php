@@ -385,7 +385,7 @@ if (!class_exists('GPC_Core_TEAM')) {
             global $wp_admin_bar;
             $wp_admin_bar->add_menu( array(
                 'id'    => 'gp-teams',
-                'title' => esc_html__( 'N3 Teams', 'gp-theme' ),
+                'title' => esc_html__( 'RC Teams', 'gp-theme' ),
                 'parent' => 'made_theme_options',
                 'href'  => admin_url( 'edit.php?post_type=n3_teams' ),
             ));
@@ -451,7 +451,7 @@ if (!class_exists('GPC_Core_TEAM')) {
         public function ___n3_teams() {
             register_post_type('n3_teams', 
                 array(	
-                    'label' => 'N3 Teams',
+                    'label' => 'RC Teams',
                     'description' => 'Create a post of Teams',
                     'public' => true,
                     'show_ui' => true,
@@ -498,9 +498,9 @@ if (!class_exists('GPC_Core_TEAM')) {
                     // Order by post ID
                     'order' => 'desc',
                     'labels' => array (
-                        'name' => 'N3 Teams',
-                        'singular_name' => 'N3 Teams',
-                        'menu_name' => 'N3 Teams',
+                        'name' => 'RC Teams',
+                        'singular_name' => 'RC Teams',
+                        'menu_name' => 'RC Teams',
                         'add_new' => 'Add Team',
                         'add_new_item' => 'Add New Team',
                         'new_item' => 'New Team',

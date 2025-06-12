@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       @Restore Construction Logo Carousel
- * Description:       <strong>N3 Logo Carousel Block</strong> is a Custom <strong>Gutenberg Block</strong> developed with Swiper Js library and Gutenberg Native Components to showcase clients logos in a sliding mode.
+ * Description:       <strong>RC Logo Carousel Block</strong> is a Custom <strong>Gutenberg Block</strong> developed with Swiper Js library and Gutenberg Native Components to showcase clients logos in a sliding mode.
  * Requires at least: 5.7
  * Requires PHP:      7.0
  * Version:           2.0.3

@@ -118,8 +118,8 @@ add_action( 'admin_bar_menu', '___addToAdminBar', 100 );
 // Add custom block to admin menu
 function ___addN3CustomBlockToMenu() {
     add_menu_page(
-        'N3 Patterns',
-        'N3 Patterns',
+        'RC Patterns',
+        'RC Patterns',
         'manage_options',
         'edit.php?post_type=wp_block',
         '',

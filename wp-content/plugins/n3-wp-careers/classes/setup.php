@@ -303,7 +303,7 @@ if (!class_exists('GPC_Core_CAREER')) {
             global $wp_admin_bar;
             $wp_admin_bar->add_menu( array(
                 'id'    => 'gp-careers',
-                'title' => esc_html__( 'N3 Careers', 'gp-theme' ),
+                'title' => esc_html__( 'RC Careers', 'gp-theme' ),
                 'parent' => 'made_theme_options',
                 'href'  => admin_url( 'edit.php?post_type=n3_careers' ),
             ));
@@ -369,7 +369,7 @@ if (!class_exists('GPC_Core_CAREER')) {
         public function ___n3_careers() {
             register_post_type('n3_careers', 
                 array(	
-                    'label' => 'N3 Careers',
+                    'label' => 'RC Careers',
                     'description' => 'Create a post of Careers',
                     'public' => true,
                     'show_ui' => true,
@@ -416,9 +416,9 @@ if (!class_exists('GPC_Core_CAREER')) {
                     // Order by post ID
                     'order' => 'desc',
                     'labels' => array (
-                        'name' => 'N3 Careers',
-                        'singular_name' => 'N3 Careers',
-                        'menu_name' => 'N3 Careers',
+                        'name' => 'RC Careers',
+                        'singular_name' => 'RC Careers',
+                        'menu_name' => 'RC Careers',
                         'add_new' => 'Add Career',
                         'add_new_item' => 'Add New Career',
                         'new_item' => 'New Career',

@@ -95,7 +95,7 @@ if (!class_exists('GPC_Core_PROJECT')) {
             global $wp_admin_bar;
             $wp_admin_bar->add_menu( array(
                 'id'    => 'gp-projects',
-                'title' => esc_html__( 'N3 Projects', 'gp-theme' ),
+                'title' => esc_html__( 'RC Projects', 'gp-theme' ),
                 'parent' => 'made_theme_options',
                 'href'  => admin_url( 'edit.php?post_type=n3_projects' ),
             ));
@@ -161,7 +161,7 @@ if (!class_exists('GPC_Core_PROJECT')) {
         public function ___n3_projects() {
             register_post_type('n3_projects', 
                 array(	
-                    'label' => 'N3 Projects',
+                    'label' => 'RC Projects',
                     'description' => 'Create a post of Projects',
                     'public' => true,
                     'show_ui' => true,
@@ -208,9 +208,9 @@ if (!class_exists('GPC_Core_PROJECT')) {
                     // Order by post ID
                     'order' => 'desc',
                     'labels' => array (
-                        'name' => 'N3 Projects',
-                        'singular_name' => 'N3 Projects',
-                        'menu_name' => 'N3 Projects',
+                        'name' => 'RC Projects',
+                        'singular_name' => 'RC Projects',
+                        'menu_name' => 'RC Projects',
                         'add_new' => 'Add Project',
                         'add_new_item' => 'Add New Project',
                         'new_item' => 'New Project',

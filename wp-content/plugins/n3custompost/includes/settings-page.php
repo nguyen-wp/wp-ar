@@ -33,7 +33,7 @@ class SettingsPage {
 		global $wp_admin_bar;
 		$wp_admin_bar->add_menu( array(
 			'id'    => 'gp-blocks',
-			'title' => esc_html__( 'N3 Templates', 'gp-theme' ),
+			'title' => esc_html__( 'RC Templates', 'gp-theme' ),
 			'parent' => 'made_theme_options',
 			'href'  => admin_url( 'edit.php?post_type=n3custompost' ),
 		));
@@ -42,8 +42,8 @@ class SettingsPage {
     public function registerPage()
 	{
 		add_options_page(
-			esc_html_x('N3 Template Settings' , 'Settings page title', 'n3custompost'),
-			esc_html_x('N3 Template', 'Settings page title(in menu)', 'n3custompost'),
+			esc_html_x('RC Template Settings' , 'Settings page title', 'n3custompost'),
+			esc_html_x('RC Template', 'Settings page title(in menu)', 'n3custompost'),
 			'manage_options',
 			'n3custompost',
 			[$this, 'renderPage']
@@ -231,7 +231,7 @@ class SettingsPage {
         /* #endregion */
 
 		/* #region Disabled Blocks */
-        add_settings_field( 'n3custompost_disabled_blocks', __( 'Disable N3 Templates', 'n3custompost' ),
+        add_settings_field( 'n3custompost_disabled_blocks', __( 'Disable RC Templates', 'n3custompost' ),
             [ $this, 'renderDisabledBlocks' ], 'n3custompost_blocks', 'n3custompost_blocks' );
 
 		$blocks = n3custompost()->blocksManager()->getBlocks();

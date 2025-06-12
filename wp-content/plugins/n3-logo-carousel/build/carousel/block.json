@@ -2,7 +2,7 @@
 	"apiVersion": 2,
 	"name": "lcb/logo-carousel",
 	"version": "0.1.0",
-	"title": "N3 Logo Carousel",
+	"title": "RC Logo Carousel",
 	"category": "logo-blocks",
 	"description": "Shows clients logos in a carousel",
 	"supports": {

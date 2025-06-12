@@ -22,15 +22,15 @@ class GPLC_Admin_Page {
 
     // Admin Page
     public function aclb_plugin_admin_page(){
-        add_submenu_page( 'tools.php', __('N3 Logo Carousel Block','n3-logo-carousel-block'), __('N3 Logo Carousel Block','n3-logo-carousel-block'), 'manage_options', 'aclb-carousel', [ $this, 'aclb_admin_page_content_callback' ] );
+        add_submenu_page( 'tools.php', __('RC Logo Carousel Block','n3-logo-carousel-block'), __('RC Logo Carousel Block','n3-logo-carousel-block'), 'manage_options', 'aclb-carousel', [ $this, 'aclb_admin_page_content_callback' ] );
     }
     public function aclb_admin_page_content_callback(){
         ?>
             <div class="admin_page_container">
                 <div class="plugin_head">
                     <div class="head_container">
-                        <h1 class="plugin_title"><?php echo esc_html__('N3 Logo Carousel Block','n3-logo-carousel-block'); ?></h1>
-                        <h4 class="plugin_subtitle"><?php echo esc_html__('A Custom Gutenberg Block to Create an excellent clients N3 Logo Carousel in your Gutenberg Editor', 'n3-logo-carousel-block'); ?></h4>
+                        <h1 class="plugin_title"><?php echo esc_html__('RC Logo Carousel Block','n3-logo-carousel-block'); ?></h1>
+                        <h4 class="plugin_subtitle"><?php echo esc_html__('A Custom Gutenberg Block to Create an excellent clients RC Logo Carousel in your Gutenberg Editor', 'n3-logo-carousel-block'); ?></h4>
                         <div class="support_btn">
                             <a href="https://makegutenblock.com/contact" target="_blank" style="background: #D37F00"><?php echo esc_html__('Contact Me','n3-logo-carousel-block'); ?></a>
                             <a href="https://wordpress.org/plugins/n3-logo-carousel-block/#reviews" target="_blank" style="background: #0174A2"><?php echo esc_html__('Rate Plugin','n3-logo-carousel-block'); ?></a>

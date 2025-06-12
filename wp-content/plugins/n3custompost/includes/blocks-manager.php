@@ -34,7 +34,7 @@ class BlocksManager {
 			array(
 				array(
 					'slug' => 'n3custompost-blocks',
-					'title' => __( 'N3 Templates', 'n3custompost' ),
+					'title' => __( 'RC Templates', 'n3custompost' ),
 				),
 			)
 		);
@@ -77,7 +77,7 @@ class BlocksManager {
 			array(
 				array(
 					'slug' => 'n3custompost-blocks',
-					'title' => __( 'N3 Templates', 'n3custompost' ),
+					'title' => __( 'RC Templates', 'n3custompost' ),
 				),
 			)
 		);

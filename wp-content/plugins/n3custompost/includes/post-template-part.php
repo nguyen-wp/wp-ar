@@ -22,7 +22,7 @@ class PostTemplatePart {
 		$labels = array(
 			'name' => __( 'Post Templates', 'n3custompost' ),
 			'singular_name' => __( 'Post Template', 'n3custompost' ),
-			'menu_name' => __( 'N3 Template', 'n3custompost' ),
+			'menu_name' => __( 'RC Template', 'n3custompost' ),
 			'add_new' => __( 'New Template', 'n3custompost' ),
 			'add_new_item' => __( 'Add New Template', 'n3custompost' ),
 			'edit_item' => __( 'Edit Template', 'n3custompost' ),

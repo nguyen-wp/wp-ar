@@ -95,7 +95,7 @@ if (!class_exists('GPC_Core_SERVICE')) {
             global $wp_admin_bar;
             $wp_admin_bar->add_menu( array(
                 'id'    => 'gp-services',
-                'title' => esc_html__( 'N3 Services', 'gp-theme' ),
+                'title' => esc_html__( 'RC Services', 'gp-theme' ),
                 'parent' => 'made_theme_options',
                 'href'  => admin_url( 'edit.php?post_type=n3_services' ),
             ));
@@ -161,7 +161,7 @@ if (!class_exists('GPC_Core_SERVICE')) {
         public function ___n3_services() {
             register_post_type('n3_services', 
                 array(	
-                    'label' => 'N3 Services',
+                    'label' => 'RC Services',
                     'description' => 'Create a post of Services',
                     'public' => true,
                     'show_ui' => true,
@@ -208,9 +208,9 @@ if (!class_exists('GPC_Core_SERVICE')) {
                     // Order by post ID
                     'order' => 'desc',
                     'labels' => array (
-                        'name' => 'N3 Services',
-                        'singular_name' => 'N3 Services',
-                        'menu_name' => 'N3 Services',
+                        'name' => 'RC Services',
+                        'singular_name' => 'RC Services',
+                        'menu_name' => 'RC Services',
                         'add_new' => 'Add Service',
                         'add_new_item' => 'Add New Service',
                         'new_item' => 'New Service',

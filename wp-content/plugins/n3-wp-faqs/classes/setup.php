@@ -91,7 +91,7 @@ if (!class_exists('GPC_Core_FAQ')) {
             global $wp_admin_bar;
             $wp_admin_bar->add_menu( array(
                 'id'    => 'gp-faqs',
-                'title' => esc_html__( 'N3 FAQs', 'gp-theme' ),
+                'title' => esc_html__( 'RC FAQs', 'gp-theme' ),
                 'parent' => 'made_theme_options',
                 'href'  => admin_url( 'edit.php?post_type=n3_faqs' ),
             ));
@@ -157,7 +157,7 @@ if (!class_exists('GPC_Core_FAQ')) {
         public function ___n3_faqs() {
             register_post_type('n3_faqs', 
                 array(	
-                    'label' => 'N3 FAQs',
+                    'label' => 'RC FAQs',
                     'description' => 'Create a post of FAQs',
                     'public' => false, // it's not public, it shouldn't have it's own permalink
                     'show_ui' => true,
@@ -204,9 +204,9 @@ if (!class_exists('GPC_Core_FAQ')) {
                     // Order by post ID
                     'order' => 'desc',
                     'labels' => array (
-                        'name' => 'N3 FAQs',
-                        'singular_name' => 'N3 FAQs',
-                        'menu_name' => 'N3 FAQs',
+                        'name' => 'RC FAQs',
+                        'singular_name' => 'RC FAQs',
+                        'menu_name' => 'RC FAQs',
                         'add_new' => 'Add FAQ',
                         'add_new_item' => 'Add New FAQ',
                         'new_item' => 'New FAQ',

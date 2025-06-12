@@ -48,7 +48,7 @@ if (!class_exists('MADE_LabCore_Core_TESTIMONIAL')) {
             global $wp_admin_bar;
             $wp_admin_bar->add_menu( array(
                 'id'    => 'madelab-testimonials',
-                'title' => esc_html__( 'N3 Testimonials', 'made-theme-options' ),
+                'title' => esc_html__( 'RC Testimonials', 'made-theme-options' ),
                 'parent' => 'made_theme_options',
                 'href'  => admin_url( 'edit.php?post_type=n3_testimonials' ),
             ));
@@ -85,7 +85,7 @@ if (!class_exists('MADE_LabCore_Core_TESTIMONIAL')) {
         public function ___madelab_testimonials() {
             register_post_type('n3_testimonials', 
                 array(	
-                    'label' => 'N3 Testimonials',
+                    'label' => 'RC Testimonials',
                     'description' => 'Create a post of Testimonials',
                     'public' => false, // it's not public, it shouldn't have it's own permalink
                     'show_ui' => true,
@@ -114,9 +114,9 @@ if (!class_exists('MADE_LabCore_Core_TESTIMONIAL')) {
                         'author'
                         ),
                     'labels' => array (
-                        'name' => 'N3 Testimonials',
+                        'name' => 'RC Testimonials',
                         'singular_name' => 'Testimonials',
-                        'menu_name' => 'N3 Testimonials',
+                        'menu_name' => 'RC Testimonials',
                         'add_new' => 'Add Testimonial',
                         'add_new_item' => 'Add New Testimonial',
                         'new_item' => 'New Testimonial',

@@ -18,7 +18,7 @@
         // TYPICAL -> Change these values as you need/desire
         'opt_name'             => $opt_name,
         // This is where your data is stored in the database and also becomes your global variable name.
-        'display_name'         => 'N3 System',
+        'display_name'         => 'RC System',
         // Name that appears at the top of your panel
         'display_version'      => '2.0.1',
         // Version that appears at the top of your panel
@@ -26,8 +26,8 @@
         //Specify if the admin menu should appear or not. Options: menu or submenu (Under appearance only)
         'allow_sub_menu'       => true,
         // Show the sections below the admin menu item or not
-		'menu_title'           => esc_html__( 'N3 System', 'made-theme-options' ),
-		'page_title'           => esc_html__( 'N3 System', 'made-theme-options' ),
+		'menu_title'           => esc_html__( 'RC System', 'made-theme-options' ),
+		'page_title'           => esc_html__( 'RC System', 'made-theme-options' ),
         // You will need to generate a Google API key to use this feature.
         // Please visit: https://developers.google.com/fonts/docs/developer_api#Auth
         'google_api_key'       => '',

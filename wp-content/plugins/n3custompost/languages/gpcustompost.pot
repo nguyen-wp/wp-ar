@@ -2,7 +2,7 @@
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: N3 Template 1.8.3\n"
+"Project-Id-Version: RC Template 1.8.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/n3custompost\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Domain: n3custompost\n"
 
 #. Plugin Name of the plugin
-msgid "N3 Template"
+msgid "RC Template"
 msgstr ""
 
 #. Plugin URI of the plugin
@@ -40,17 +40,17 @@ msgstr ""
 
 #: includes/blocks-manager.php:37
 #: includes/blocks-manager.php:80
-msgid "N3 Templates"
+msgid "RC Templates"
 msgstr ""
 
 #: includes/blocks-manager.php:49
 #: includes/blocks-manager.php:92
-msgid "N3 Template Post Blocks"
+msgid "RC Template Post Blocks"
 msgstr ""
 
 #: includes/blocks-manager.php:62
 #: includes/blocks-manager.php:105
-msgid "N3 Template ACF Blocks"
+msgid "RC Template ACF Blocks"
 msgstr ""
 
 #. translators: %1$s is a block name, %2$s is a link
@@ -387,7 +387,7 @@ msgstr ""
 
 #: includes/post-template-part.php:25
 #: assets/js/editor.blocks.js:23
-msgid "N3 Template Post Templates"
+msgid "RC Template Post Templates"
 msgstr ""
 
 #: includes/post-template-part.php:26
@@ -438,12 +438,12 @@ msgstr ""
 
 #: includes/settings-page.php:33
 msgctxt "Settings page title"
-msgid "N3 Template Settings"
+msgid "RC Template Settings"
 msgstr ""
 
 #: includes/settings-page.php:34
 msgctxt "Settings page title(in menu)"
-msgid "N3 Template"
+msgid "RC Template"
 msgstr ""
 
 #: includes/settings-page.php:93
@@ -500,7 +500,7 @@ msgid "Mailchimp API Key"
 msgstr ""
 
 #: includes/settings-page.php:220
-msgid "Disable N3 Templates"
+msgid "Disable RC Templates"
 msgstr ""
 
 #: includes/settings-page.php:238
@@ -567,7 +567,7 @@ msgid "Aggregate all CSS files of blocks in header"
 msgstr ""
 
 #: includes/settings-page.php:406
-msgid "If this option is on, all CSS files of blocks will be moved to header for better theme compatibility. If your theme has custom styling for N3 Template blocks, its styles will be applied first."
+msgid "If this option is on, all CSS files of blocks will be moved to header for better theme compatibility. If your theme has custom styling for RC Template blocks, its styles will be applied first."
 msgstr ""
 
 #: includes/settings-page.php:410
@@ -2084,11 +2084,11 @@ msgid "Custom Width"
 msgstr ""
 
 #: assets/js/editor.blocks.js:23
-msgid "Set the default width of the content area in N3 Template Settings."
+msgid "Set the default width of the content area in RC Template Settings."
 msgstr ""
 
 #: assets/js/editor.blocks.js:23
-msgid "N3 Template Settings"
+msgid "RC Template Settings"
 msgstr ""
 
 #: assets/js/editor.blocks.js:23
