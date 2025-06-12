@@ -307,3 +307,29 @@ h1, h2, h3, h4, h5, h6, blockquote, caption, figcaption, p {
 	color: #fff;
 	fill: #fff;
 }
+
+.wp-block-navigation__responsive-container.is-menu-open {
+	background: #7a0806 !important;
+	color: #fff !important;
+	a {
+		color: #fff !important;
+	}
+}
+
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .has-child .wp-block-navigation__submenu-container,
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .has-child .wp-block-navigation__submenu-container {
+	padding: 1rem 0 0 1rem ;
+}
+
+.wp-block-navigation__responsive-container .wp-block-navigation ul  {
+	width: 100%;
+}
+.wp-block-navigation__responsive-container .wp-block-navigation ul ul  {
+	width: 100%;
+}
+.wp-block-navigation__responsive-container .wp-block-navigation ul li {
+	border-bottom: 1px solid #e5e5e5;
+}
+.wp-block-navigation__responsive-container .wp-block-navigation ul li a {
+	padding: .5rem 0rem;
+}
