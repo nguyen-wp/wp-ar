@@ -1,4 +1,3 @@
-<!-- OWL Carousel -->
 <div class="n3_testimonial layout-<?php echo $layout;?>" id="made_owl-<?php echo $id; ?>">
     <div class="testimonial-main owl-carousel owl-theme">
         <?php 
@@ -152,8 +151,7 @@
             endwhile;
         ?>
     </div>
-</div>
-<script>
+</div><script>
 jQuery(document).ready(function() {
     var myowl<?php echo $id; ?> = jQuery('#made_owl-<?php echo $id; ?> .testimonial-main').owlCarousel({
         items: 1,
