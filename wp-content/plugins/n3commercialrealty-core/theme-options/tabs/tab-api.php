@@ -27,7 +27,7 @@ Redux::setSection( $opt_name, array(
             'type'     => 'text',
             'title'    => __( 'Google Map API Key', 'madelab' ),
             'subtitle' => __( 'Enter your Google Map API Key', 'madelab' ),
-            'placeholder' => 'AIzaSyDxK_tpILbkh_ZoCfzGw4RmkIsA7AsXfD8',
+            'placeholder' => '123',
             'desc'     => __( 'Get your Google Map API Key from <a href="https://developers.google.com/maps/documentation/javascript/get-api-key" target="_blank">here</a>', 'madelab' ),
             'default'  => '',
         ),
