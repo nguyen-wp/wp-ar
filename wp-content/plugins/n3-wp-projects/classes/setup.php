@@ -184,7 +184,7 @@ if (!class_exists('GPC_Core_PROJECT')) {
                     'capability_type' => 'post',
                     'hierarchical' => true,
                     'rewrite' => array(
-                        'slug' => 'projects',
+                        'slug' => 'all-projects',
                         'post_type' => 'n3_projects',
                         // 'with_front' => true,
                         // 'hierarchical' => true

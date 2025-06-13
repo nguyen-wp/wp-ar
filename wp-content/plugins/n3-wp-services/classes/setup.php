@@ -184,7 +184,7 @@ if (!class_exists('GPC_Core_SERVICE')) {
                     'capability_type' => 'post',
                     'hierarchical' => true,
                     'rewrite' => array(
-                        'slug' => 'services',
+                        'slug' => 'all-services',
                         'post_type' => 'n3_services',
                         // 'with_front' => true,
                         // 'hierarchical' => true

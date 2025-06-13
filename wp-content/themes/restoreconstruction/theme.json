@@ -749,61 +749,37 @@
 			"postTypes": ["page"],
 			"title": "Page Wide"
 		}, 
-		{
-			"name": "archive-n3_careers",
-			"postTypes": ["n3_careers"],
-			"title": "CR Career Archive"
-		},
+		
 		{
 			"name": "single-n3_careers",
 			"postTypes": ["n3_careers"],
 			"title": "CR Career Single"
 		},
-		{
-			"name": "archive-n3_teams",
-			"postTypes": ["n3_teams"],
-			"title": "CR Team Archive"
-		},
+		
 		{
 			"name": "single-n3_teams",
 			"postTypes": ["n3_teams"],
 			"title": "CR Team Single"
 		},
-		{
-			"name": "archive-n3_maps",
-			"postTypes": ["n3_maps"],
-			"title": "CR Map Archive"
-		},
+		
 		{
 			"name": "single-n3_maps",
 			"postTypes": ["n3_maps"],
 			"title": "CR Map Single"
 		},
-		{
-			"name": "archive-n3_properties",
-			"postTypes": ["n3_properties"],
-			"title": "CR Property Archive"
-		},
+		
 		{
 			"name": "single-n3_properties",
 			"postTypes": ["n3_properties"],
 			"title": "CR Property Single"
 		},
-		{
-			"name": "archive-n3_projects",
-			"postTypes": ["n3_projects"],
-			"title": "CR Project Archive"
-		},
+		
 		{
 			"name": "single-n3_projects",
 			"postTypes": ["n3_projects"],
 			"title": "CR Project Single"
 		},
-		{
-			"name": "archive-n3_services",
-			"postTypes": ["n3_services"],
-			"title": "CR Service Archive"
-		},
+		
 		{
 			"name": "single-n3_services",
 			"postTypes": ["n3_services"],
